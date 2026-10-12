@@ -1,0 +1,112 @@
+# Deploy automatico sul VPS a ogni push su main.
+#
+# Il runner di GitHub copia i file del repo sul VPS via SSH (in ~/books
+# dell'utente di deploy) e lancia scripts/deploy.sh, che ricostruisce
+# l'immagine e sostituisce il container. Niente git, niente sudo sul VPS.
+#
+# Secret richiesti (Settings -> Secrets and variables -> Actions):
+#   VPS_SSH_KEY      chiave privata autorizzata sul VPS (vedi README)
+#   VPS_USER         utente SSH sul VPS, deve poter usare docker senza sudo
+# Facoltativi:
+#   VPS_HOST         default 179.237.81.123
+#   VPS_PORT         default 22
+#   VPS_KNOWN_HOSTS  riga di known_hosts del VPS; se manca si usa ssh-keyscan
+name: Deploy sul VPS
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Un deploy alla volta: se arrivano due push ravvicinati, il secondo aspetta.
+concurrency:
+  group: deploy-vps
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      VPS_HOST: ${{ secrets.VPS_HOST || '179.237.81.123' }}
+      VPS_PORT: ${{ secrets.VPS_PORT || '22' }}
+      VPS_USER: ${{ secrets.VPS_USER }}
+      PORTA_SITO: "8002"
+    steps:
+      - name: Controlla i secret
+        env:
+          HAS_KEY: ${{ secrets.VPS_SSH_KEY != '' }}
+        run: |
+          mancanti=()
+          [[ "$HAS_KEY" == "true" ]] || mancanti+=("VPS_SSH_KEY")
+          [[ -n "$VPS_USER" ]] || mancanti+=("VPS_USER")
+          if (( ${#mancanti[@]} )); then
+            echo "::error::Secret mancanti: ${mancanti[*]}. Configurali in Settings -> Secrets and variables -> Actions (vedi README, 'Configurazione una tantum')."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+
+      - name: Prepara la chiave SSH
+        env:
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          VPS_KNOWN_HOSTS: ${{ secrets.VPS_KNOWN_HOSTS }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/id_deploy
+          chmod 600 ~/.ssh/id_deploy
+          if [[ -n "$VPS_KNOWN_HOSTS" ]]; then
+            printf '%s\n' "$VPS_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          else
+            ssh-keyscan -p "$VPS_PORT" -T 15 "$VPS_HOST" > ~/.ssh/known_hosts
+          fi
+          [[ -s ~/.ssh/known_hosts ]] || { echo "::error::Impossibile leggere la chiave host di $VPS_HOST:$VPS_PORT (VPS spento o porta SSH chiusa?)"; exit 1; }
+          cat > ~/.ssh/config <<CFG
+          Host vps
+            HostName $VPS_HOST
+            Port $VPS_PORT
+            User $VPS_USER
+            IdentityFile ~/.ssh/id_deploy
+            IdentitiesOnly yes
+            BatchMode yes
+            ConnectTimeout 20
+            ServerAliveInterval 15
+          CFG
+
+      - name: Verifica accesso SSH e docker
+        run: |
+          ssh vps 'echo "connesso come $(whoami) su $(hostname)"; docker info >/dev/null 2>&1 || { echo "ERRORE: questo utente non puo usare docker senza sudo (aggiungilo al gruppo docker)" >&2; exit 1; }'
+
+      - name: Copia i file sul VPS
+        run: |
+          # Estrae in ~/books.nuovo e poi scambia le cartelle: se la copia si
+          # interrompe a meta', la versione in ~/books resta intatta.
+          tar czf - --exclude=.git --exclude=.github . \
+            | ssh vps 'set -e; rm -rf ~/books.nuovo; mkdir -p ~/books.nuovo; tar xzf - -C ~/books.nuovo; rm -rf ~/books.vecchio; [ -d ~/books ] && mv ~/books ~/books.vecchio; mv ~/books.nuovo ~/books; rm -rf ~/books.vecchio'
+
+      - name: Build e riavvio del container
+        run: ssh vps 'bash ~/books/scripts/deploy.sh'
+
+      - name: Verifica dall'esterno
+        run: |
+          url="http://$VPS_HOST:$PORTA_SITO/"
+          for _ in $(seq 1 10); do
+            if curl -fsS -o /dev/null --max-time 10 "$url"; then
+              echo "OK: $url risponde."
+              {
+                echo "### Sito pubblicato"
+                echo
+                echo "- Elenco libri: $url"
+                for libro in libri/*/; do
+                  [[ -f "$libro/index.html" ]] && echo "- ${url}$(basename "$libro")/"
+                done
+              } >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "::error::Il container gira sul VPS ma $url non risponde da Internet: apri la porta $PORTA_SITO nel firewall (ufw sul VPS e/o pannello Infomaniak)."
+          exit 1
