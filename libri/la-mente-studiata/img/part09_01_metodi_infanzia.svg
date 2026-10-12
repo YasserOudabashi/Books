@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="500" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Quattro metodi per studiare un soggetto che non parla</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Che cosa si presenta, che cosa si misura, che cosa si può inferire</text>
+
+  <rect x="30" y="85" width="840" height="32" rx="4" fill="#334155"/>
+  <text x="45" y="106" font-size="13" font-weight="bold" fill="#FFFFFF">Metodo</text>
+  <text x="250" y="106" font-size="13" font-weight="bold" fill="#FFFFFF">Si presenta</text>
+  <text x="470" y="106" font-size="13" font-weight="bold" fill="#FFFFFF">Si misura</text>
+  <text x="680" y="106" font-size="13" font-weight="bold" fill="#FFFFFF">Si inferisce</text>
+
+  <rect x="30" y="125" width="840" height="78" rx="4" fill="#F1F5F9" stroke="#CBD5E1"/>
+  <text x="45" y="158" font-size="14" font-weight="bold" fill="#065F46">Preferenza visiva</text>
+  <text x="250" y="152" font-size="12" fill="#334155">due stimoli</text>
+  <text x="250" y="170" font-size="12" fill="#334155">affiancati</text>
+  <text x="470" y="152" font-size="12" fill="#334155">tempo di sguardo</text>
+  <text x="470" y="170" font-size="12" fill="#334155">a ciascuno</text>
+  <text x="680" y="152" font-size="12" fill="#334155">distingue i due stimoli</text>
+  <text x="680" y="170" font-size="12" fill="#334155">e ne preferisce uno</text>
+
+  <rect x="30" y="211" width="840" height="78" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="45" y="244" font-size="14" font-weight="bold" fill="#065F46">Abituazione</text>
+  <text x="250" y="238" font-size="12" fill="#334155">stesso stimolo ripetuto,</text>
+  <text x="250" y="256" font-size="12" fill="#334155">poi uno nuovo</text>
+  <text x="470" y="238" font-size="12" fill="#334155">calo dello sguardo,</text>
+  <text x="470" y="256" font-size="12" fill="#334155">poi risalita</text>
+  <text x="680" y="238" font-size="12" fill="#334155">distingue il vecchio</text>
+  <text x="680" y="256" font-size="12" fill="#334155">dal nuovo</text>
+
+  <rect x="30" y="297" width="840" height="78" rx="4" fill="#F1F5F9" stroke="#CBD5E1"/>
+  <text x="45" y="323" font-size="14" font-weight="bold" fill="#065F46">Suzione ad</text>
+  <text x="45" y="341" font-size="14" font-weight="bold" fill="#065F46">alta ampiezza</text>
+  <text x="250" y="330" font-size="12" fill="#334155">un suono a ogni</text>
+  <text x="250" y="348" font-size="12" fill="#334155">suzione forte</text>
+  <text x="470" y="330" font-size="12" fill="#334155">ritmo di suzione</text>
+  <text x="470" y="348" font-size="12" fill="#334155">nel tempo</text>
+  <text x="680" y="330" font-size="12" fill="#334155">distingue due suoni</text>
+  <text x="680" y="348" font-size="12" fill="#334155">(percezione uditiva)</text>
+
+  <rect x="30" y="383" width="840" height="78" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="45" y="409" font-size="14" font-weight="bold" fill="#065F46">Violazione</text>
+  <text x="45" y="427" font-size="14" font-weight="bold" fill="#065F46">dell'attesa</text>
+  <text x="250" y="416" font-size="12" fill="#334155">evento possibile e</text>
+  <text x="250" y="434" font-size="12" fill="#334155">evento impossibile</text>
+  <text x="470" y="416" font-size="12" fill="#334155">sguardo più lungo</text>
+  <text x="470" y="434" font-size="12" fill="#334155">all'evento impossibile</text>
+  <text x="680" y="416" font-size="12" fill="#92400E">forse: un'aspettativa</text>
+  <text x="680" y="434" font-size="12" fill="#92400E">violata (discusso)</text>
+</svg>

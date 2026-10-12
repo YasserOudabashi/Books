@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="460" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Relatività linguistica: il caso del blu</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Il russo distingue grammaticalmente goluboy (blu chiaro) e siniy (blu scuro)</text>
+
+  <rect x="100" y="110" width="300" height="140" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="250" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#1E3A8A">Parlanti russi</text>
+  <text x="250" y="160" text-anchor="middle" font-size="11" fill="#1E40AF">due categorie di base:</text>
+  <text x="250" y="180" text-anchor="middle" font-size="11" fill="#1E40AF">goluboy / siniy</text>
+  <text x="250" y="205" text-anchor="middle" font-size="11" fill="#1E40AF">discriminazione più rapida</text>
+  <text x="250" y="223" text-anchor="middle" font-size="11" fill="#1E40AF">quando i colori attraversano</text>
+  <text x="250" y="240" text-anchor="middle" font-size="11" fill="#1E40AF">il confine tra le due categorie</text>
+
+  <rect x="500" y="110" width="300" height="140" rx="8" fill="#F8FAFC" stroke="#475569" stroke-width="2"/>
+  <text x="650" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">Parlanti inglesi</text>
+  <text x="650" y="160" text-anchor="middle" font-size="11" fill="#334155">una sola categoria: "blue"</text>
+  <text x="650" y="185" text-anchor="middle" font-size="11" fill="#334155">nessun vantaggio di velocità</text>
+  <text x="650" y="205" text-anchor="middle" font-size="11" fill="#334155">alla stessa soglia cromatica</text>
+
+  <rect x="230" y="290" width="440" height="90" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="450" y="315" text-anchor="middle" font-size="12" font-weight="bold" fill="#7F1D1D">Il vantaggio scompare con un compito verbale concorrente</text>
+  <text x="450" y="335" text-anchor="middle" font-size="11" fill="#991B1B">segno che l'effetto passa attraverso una rappresentazione</text>
+  <text x="450" y="353" text-anchor="middle" font-size="11" fill="#991B1B">linguistica attiva, non una differenza percettiva fissa</text>
+
+  <rect x="180" y="400" width="540" height="45" rx="6" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="428" text-anchor="middle" font-size="11" fill="#92400E">Effetto reale ma piccolo e specifico al compito, non determinismo linguistico</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Il paradigma della parola critica</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Parole associate presentate, la parola critica no — ma viene "ricordata"</text>
+
+  <!-- list of words presented -->
+  <rect x="80" y="100" width="330" height="230" rx="8" fill="#F0F9FF" stroke="#0284C7" stroke-width="2"/>
+  <text x="245" y="125" text-anchor="middle" font-size="12" font-weight="bold" fill="#075985">Parole effettivamente presentate</text>
+  <text x="245" y="150" text-anchor="middle" font-size="11" fill="#334155">letto · riposo · sveglio · stanco</text>
+  <text x="245" y="170" text-anchor="middle" font-size="11" fill="#334155">sogno · russare · cuscino</text>
+  <text x="245" y="190" text-anchor="middle" font-size="11" fill="#334155">sbadiglio · pisolino · coperta</text>
+  <text x="245" y="210" text-anchor="middle" font-size="11" fill="#334155">notte · sonnellino · pigro</text>
+  <text x="245" y="245" text-anchor="middle" font-size="10" fill="#0369A1">tutte fortemente associate a</text>
+  <text x="245" y="263" text-anchor="middle" font-size="10" fill="#0369A1">una parola che non compare mai:</text>
+  <rect x="150" y="278" width="190" height="36" rx="6" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="245" y="301" text-anchor="middle" font-size="13" font-weight="bold" fill="#DC2626">"SONNO"</text>
+
+  <path d="M 410,215 L 500,215" stroke="#94A3B8" stroke-width="2" marker-end="url(#arr3)"/>
+  <defs><marker id="arr3" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#94A3B8"/></marker></defs>
+  <text x="455" y="205" text-anchor="middle" font-size="10" fill="#64748B">test di</text>
+  <text x="455" y="228" text-anchor="middle" font-size="10" fill="#64748B">riconoscimento</text>
+
+  <rect x="505" y="100" width="315" height="230" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="662" y="125" text-anchor="middle" font-size="12" font-weight="bold" fill="#7F1D1D">Risultato tipico</text>
+  <text x="662" y="155" text-anchor="middle" font-size="11" fill="#334155">40-80% dei partecipanti riporta</text>
+  <text x="662" y="175" text-anchor="middle" font-size="11" fill="#334155">di aver visto "sonno" nella lista</text>
+  <text x="662" y="205" text-anchor="middle" font-size="11" fill="#991B1B">spesso con la stessa sicurezza</text>
+  <text x="662" y="223" text-anchor="middle" font-size="11" fill="#991B1B">soggettiva delle parole vere</text>
+  <text x="662" y="253" text-anchor="middle" font-size="10" fill="#7F1D1D">in alcuni casi con dettagli aggiuntivi</text>
+  <text x="662" y="271" text-anchor="middle" font-size="10" fill="#7F1D1D">(es. "in che punto della lista")</text>
+  <text x="662" y="289" text-anchor="middle" font-size="10" fill="#7F1D1D">impossibili, perché mai presentata</text>
+
+  <rect x="150" y="370" width="600" height="70" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="395" text-anchor="middle" font-size="12" font-weight="bold" fill="#92400E">Il ricordo falso nasce dall'associazione semantica automatica,</text>
+  <text x="450" y="415" text-anchor="middle" font-size="11" fill="#92400E">non da un tentativo di ingannare né da un difetto isolato della memoria</text>
+</svg>

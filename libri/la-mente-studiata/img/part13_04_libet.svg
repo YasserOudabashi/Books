@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="900" height="440" fill="#FFFFFF"/>
+<text x="450.0" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Il paradigma di Libet</text>
+<text x="450.0" y="60" text-anchor="middle" font-size="13" fill="#64748B">Linea del tempo (millisecondi rispetto all'inizio del movimento); valori medi circa</text><line x1="70" y1="250" x2="830" y2="250" stroke="#334155" stroke-width="2.5"/>
+<line x1="120.66666666666666" y1="245" x2="120.66666666666666" y2="255" stroke="#334155"/><text x="120.66666666666666" y="274" text-anchor="middle" font-size="11" fill="#334155">-600</text>
+<line x1="222.0" y1="245" x2="222.0" y2="255" stroke="#334155"/><text x="222.0" y="274" text-anchor="middle" font-size="11" fill="#334155">-500</text>
+<line x1="323.3333333333333" y1="245" x2="323.3333333333333" y2="255" stroke="#334155"/><text x="323.3333333333333" y="274" text-anchor="middle" font-size="11" fill="#334155">-400</text>
+<line x1="424.6666666666667" y1="245" x2="424.6666666666667" y2="255" stroke="#334155"/><text x="424.6666666666667" y="274" text-anchor="middle" font-size="11" fill="#334155">-300</text>
+<line x1="526.0" y1="245" x2="526.0" y2="255" stroke="#334155"/><text x="526.0" y="274" text-anchor="middle" font-size="11" fill="#334155">-200</text>
+<line x1="627.3333333333333" y1="245" x2="627.3333333333333" y2="255" stroke="#334155"/><text x="627.3333333333333" y="274" text-anchor="middle" font-size="11" fill="#334155">-100</text>
+<line x1="728.6666666666667" y1="245" x2="728.6666666666667" y2="255" stroke="#334155"/><text x="728.6666666666667" y="274" text-anchor="middle" font-size="11" fill="#334155">0</text>
+<line x1="830.0" y1="245" x2="830.0" y2="255" stroke="#334155"/><text x="830.0" y="274" text-anchor="middle" font-size="11" fill="#334155">100</text>
+<text x="450.0" y="298" text-anchor="middle" font-size="11" fill="#64748B">millisecondi (0 = inizio del movimento)</text>
+<circle cx="171.33333333333331" cy="250" r="9" fill="#D97706"/>
+<line x1="171.33333333333331" y1="240" x2="171.33333333333331" y2="198" stroke="#D97706" stroke-width="2"/>
+<text x="171.33333333333331" y="164" text-anchor="middle" font-size="13" fill="#D97706" font-weight="bold">Inizio del potenziale</text>
+<text x="171.33333333333331" y="182" text-anchor="middle" font-size="12" fill="#D97706">di prontezza (EEG)</text>
+<circle cx="526.0" cy="250" r="9" fill="#7C3AED"/>
+<line x1="526.0" y1="240" x2="526.0" y2="198" stroke="#7C3AED" stroke-width="2"/>
+<text x="526.0" y="164" text-anchor="middle" font-size="13" fill="#7C3AED" font-weight="bold">Impulso riferito</text>
+<text x="526.0" y="182" text-anchor="middle" font-size="12" fill="#7C3AED">(tempo W)</text>
+<circle cx="728.6666666666667" cy="250" r="9" fill="#059669"/>
+<line x1="728.6666666666667" y1="240" x2="728.6666666666667" y2="198" stroke="#059669" stroke-width="2"/>
+<text x="728.6666666666667" y="164" text-anchor="middle" font-size="13" fill="#059669" font-weight="bold">Movimento</text>
+<text x="728.6666666666667" y="182" text-anchor="middle" font-size="12" fill="#059669"></text>
+<line x1="171.33333333333331" y1="328" x2="526.0" y2="328" stroke="#DC2626" stroke-width="2.5"/><line x1="171.33333333333331" y1="320" x2="171.33333333333331" y2="336" stroke="#DC2626" stroke-width="2.5"/><line x1="526.0" y1="320" x2="526.0" y2="336" stroke="#DC2626" stroke-width="2.5"/>
+<text x="348.66666666666663" y="354" text-anchor="middle" font-size="13" fill="#DC2626" font-weight="bold">intervallo di circa 300–350 ms</text>
+<text x="450.0" y="390" text-anchor="middle" font-size="12" fill="#334155">Il potenziale di prontezza si vede solo nella media di molte prove allineate sul movimento.</text>
+
+</svg>

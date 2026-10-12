@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="900" height="470" fill="#FFFFFF"/>
+<text x="450.0" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Stabilità d'ordine e stabilità di livello</text>
+<text x="450.0" y="60" text-anchor="middle" font-size="13" fill="#64748B">Gli stessi cinque individui in due situazioni opposte (valori illustrativi)</text><text x="230" y="110" text-anchor="middle" font-size="15" font-weight="bold" fill="#334155">Ordine conservato, livello cambiato</text>
+<text x="230" y="130" text-anchor="middle" font-size="12" fill="#64748B">media da 50 a 60; correlazione 1,0</text>
+<line x1="80" y1="380" x2="380" y2="380" stroke="#334155" stroke-width="2"/><line x1="80" y1="380" x2="80" y2="160" stroke="#334155" stroke-width="2"/>
+<text x="72" y="340.0" text-anchor="end" font-size="11" fill="#334155">40</text><line x1="80" y1="336.0" x2="380" y2="336.0" stroke="#E2E8F0"/>
+<text x="72" y="252.0" text-anchor="end" font-size="11" fill="#334155">60</text><line x1="80" y1="248.0" x2="380" y2="248.0" stroke="#E2E8F0"/>
+<text x="72" y="163.99999999999997" text-anchor="end" font-size="11" fill="#334155">80</text><line x1="80" y1="159.99999999999997" x2="380" y2="159.99999999999997" stroke="#E2E8F0"/>
+<text x="140" y="402" text-anchor="middle" font-size="12" fill="#334155">20 anni</text><text x="320" y="402" text-anchor="middle" font-size="12" fill="#334155">40 anni</text>
+<line x1="140" y1="336.0" x2="320" y2="292.0" stroke="#0284C7" stroke-width="2.5"/><circle cx="140" cy="336.0" r="5" fill="#0284C7"/><circle cx="320" cy="292.0" r="5" fill="#0284C7"/>
+<line x1="140" y1="314.0" x2="320" y2="270.0" stroke="#059669" stroke-width="2.5"/><circle cx="140" cy="314.0" r="5" fill="#059669"/><circle cx="320" cy="270.0" r="5" fill="#059669"/>
+<line x1="140" y1="292.0" x2="320" y2="248.0" stroke="#D97706" stroke-width="2.5"/><circle cx="140" cy="292.0" r="5" fill="#D97706"/><circle cx="320" cy="248.0" r="5" fill="#D97706"/>
+<line x1="140" y1="270.0" x2="320" y2="226.0" stroke="#7C3AED" stroke-width="2.5"/><circle cx="140" cy="270.0" r="5" fill="#7C3AED"/><circle cx="320" cy="226.0" r="5" fill="#7C3AED"/>
+<line x1="140" y1="248.0" x2="320" y2="204.0" stroke="#DC2626" stroke-width="2.5"/><circle cx="140" cy="248.0" r="5" fill="#DC2626"/><circle cx="320" cy="204.0" r="5" fill="#DC2626"/>
+<text x="230" y="440" text-anchor="middle" font-size="13" fill="#059669" font-weight="bold">Stabile d'ordine, non di livello</text>
+<text x="670" y="110" text-anchor="middle" font-size="15" font-weight="bold" fill="#334155">Livello conservato, ordine rimescolato</text>
+<text x="670" y="130" text-anchor="middle" font-size="12" fill="#64748B">media 50 e 50; correlazione circa −0,2</text>
+<line x1="520" y1="380" x2="820" y2="380" stroke="#334155" stroke-width="2"/><line x1="520" y1="380" x2="520" y2="160" stroke="#334155" stroke-width="2"/>
+<text x="512" y="340.0" text-anchor="end" font-size="11" fill="#334155">40</text><line x1="520" y1="336.0" x2="820" y2="336.0" stroke="#E2E8F0"/>
+<text x="512" y="252.0" text-anchor="end" font-size="11" fill="#334155">60</text><line x1="520" y1="248.0" x2="820" y2="248.0" stroke="#E2E8F0"/>
+<text x="512" y="163.99999999999997" text-anchor="end" font-size="11" fill="#334155">80</text><line x1="520" y1="159.99999999999997" x2="820" y2="159.99999999999997" stroke="#E2E8F0"/>
+<text x="580" y="402" text-anchor="middle" font-size="12" fill="#334155">20 anni</text><text x="760" y="402" text-anchor="middle" font-size="12" fill="#334155">40 anni</text>
+<line x1="580" y1="336.0" x2="760" y2="270.0" stroke="#0284C7" stroke-width="2.5"/><circle cx="580" cy="336.0" r="5" fill="#0284C7"/><circle cx="760" cy="270.0" r="5" fill="#0284C7"/>
+<line x1="580" y1="314.0" x2="760" y2="336.0" stroke="#059669" stroke-width="2.5"/><circle cx="580" cy="314.0" r="5" fill="#059669"/><circle cx="760" cy="336.0" r="5" fill="#059669"/>
+<line x1="580" y1="292.0" x2="760" y2="248.0" stroke="#D97706" stroke-width="2.5"/><circle cx="580" cy="292.0" r="5" fill="#D97706"/><circle cx="760" cy="248.0" r="5" fill="#D97706"/>
+<line x1="580" y1="270.0" x2="760" y2="292.0" stroke="#7C3AED" stroke-width="2.5"/><circle cx="580" cy="270.0" r="5" fill="#7C3AED"/><circle cx="760" cy="292.0" r="5" fill="#7C3AED"/>
+<line x1="580" y1="248.0" x2="760" y2="314.0" stroke="#DC2626" stroke-width="2.5"/><circle cx="580" cy="248.0" r="5" fill="#DC2626"/><circle cx="760" cy="314.0" r="5" fill="#DC2626"/>
+<text x="670" y="440" text-anchor="middle" font-size="13" fill="#DC2626" font-weight="bold">Stabile di livello, non d'ordine</text>
+
+</svg>

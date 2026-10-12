@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="460" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Struttura graduata di una categoria</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Categoria: "uccello" — non tutti i membri sono ugualmente tipici</text>
+
+  <rect x="100" y="110" width="150" height="150" rx="10" fill="#ECFDF5" stroke="#059669" stroke-width="3"/>
+  <text x="175" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#065F46">Pettirosso</text>
+  <text x="175" y="175" text-anchor="middle" font-size="11" fill="#065F46">molto tipico</text>
+  <text x="175" y="195" text-anchor="middle" font-size="11" fill="#065F46">verifica rapida</text>
+  <text x="175" y="215" text-anchor="middle" font-size="11" fill="#065F46">alto punteggio</text>
+  <text x="175" y="233" text-anchor="middle" font-size="11" fill="#065F46">di tipicità</text>
+
+  <rect x="330" y="130" width="150" height="130" rx="10" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="405" y="165" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400E">Gallina</text>
+  <text x="405" y="188" text-anchor="middle" font-size="11" fill="#92400E">tipicità intermedia</text>
+
+  <rect x="530" y="150" width="140" height="110" rx="10" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="600" y="185" text-anchor="middle" font-size="13" font-weight="bold" fill="#7F1D1D">Pinguino</text>
+  <text x="600" y="208" text-anchor="middle" font-size="11" fill="#7F1D1D">poco tipico</text>
+
+  <rect x="710" y="170" width="130" height="90" rx="10" fill="#F8FAFC" stroke="#475569" stroke-width="2"/>
+  <text x="775" y="200" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">Struzzo</text>
+  <text x="775" y="220" text-anchor="middle" font-size="10" fill="#334155">meno tipico</text>
+
+  <line x1="100" y1="300" x2="840" y2="300" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrh)"/>
+  <defs><marker id="arrh" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#94A3B8"/></marker></defs>
+  <text x="470" y="325" text-anchor="middle" font-size="11" fill="#334155">gradiente di tipicità decrescente, non un confine netto</text>
+
+  <rect x="150" y="370" width="600" height="70" rx="8" fill="#F0F9FF" stroke="#0284C7" stroke-width="2"/>
+  <text x="450" y="395" text-anchor="middle" font-size="12" font-weight="bold" fill="#075985">Tutti i membri sono ugualmente "uccelli" per definizione,</text>
+  <text x="450" y="415" text-anchor="middle" font-size="11" fill="#075985">ma non ugualmente tipici né ugualmente rapidi da verificare</text>
+</svg>

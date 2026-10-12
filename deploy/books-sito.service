@@ -1,0 +1,18 @@
+# Unit systemd del sito dei libri — da copiare in /etc/systemd/system/.
+# Stesso schema di vrs-calendario.service: il container gira in foreground,
+# systemd lo riavvia se cade. La porta esterna e' 8002 (VRS usa la 8001).
+[Unit]
+Description=Books — siti statici dei libri (nginx)
+After=docker.service
+Requires=docker.service
+
+[Service]
+Restart=always
+ExecStartPre=-/usr/bin/docker rm -f books-sito
+ExecStart=/usr/bin/docker run --name books-sito \
+    -p 8002:80 \
+    books-sito
+ExecStop=/usr/bin/docker stop books-sito
+
+[Install]
+WantedBy=multi-user.target

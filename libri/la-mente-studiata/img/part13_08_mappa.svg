@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="960" height="600" fill="#FFFFFF"/>
+<text x="480.0" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">La mappa dei risultati per solidità</text>
+<text x="480.0" y="60" text-anchor="middle" font-size="13" fill="#64748B">Quattro livelli; gli esempi rimandano ai capitoli del libro</text><rect x="100" y="100" width="820" height="104" rx="10" fill="#059669" opacity="0.14" stroke="#059669" stroke-width="2.5"/>
+<text x="120" y="128" text-anchor="start" font-size="16" fill="#059669" font-weight="bold">1. Regge bene</text>
+<text x="120" y="150" text-anchor="start" font-size="12" fill="#334155">Riprodotto in contesti diversi, misura chiara</text>
+<text x="120" y="174" text-anchor="start" font-size="12" fill="#64748B">Stroop (31) · mano di gomma (33) · disinformazione (35) · ancoraggio (43) · gruppo minimo (71)</text>
+<rect x="118" y="218" width="802" height="104" rx="10" fill="#0284C7" opacity="0.14" stroke="#0284C7" stroke-width="2.5"/>
+<text x="138" y="246" text-anchor="start" font-size="16" fill="#0284C7" font-weight="bold">2. Nucleo solido, interpretazione discussa</text>
+<text x="138" y="268" text-anchor="start" font-size="12" fill="#334155">Il fenomeno è reale; la spiegazione è in discussione</text>
+<text x="138" y="292" text-anchor="start" font-size="12" fill="#64748B">Obbedienza (68) · situazione sconosciuta (57) · età e grammatica (59) · efficacia delle terapie (76)</text>
+<rect x="136" y="336" width="784" height="104" rx="10" fill="#D97706" opacity="0.14" stroke="#D97706" stroke-width="2.5"/>
+<text x="156" y="364" text-anchor="start" font-size="16" fill="#D97706" font-weight="bold">3. Ridimensionato o contestato</text>
+<text x="156" y="386" text-anchor="start" font-size="12" fill="#334155">La lettura classica è stata indebolita</text>
+<text x="156" y="410" text-anchor="start" font-size="12" fill="#64748B">Carcere di Stanford (66) · IAT (65) · pseudopazienti (74) · realismo depressivo (75)</text>
+<rect x="154" y="454" width="766" height="104" rx="10" fill="#DC2626" opacity="0.14" stroke="#DC2626" stroke-width="2.5"/>
+<text x="174" y="482" text-anchor="start" font-size="16" fill="#DC2626" font-weight="bold">4. Non ha retto</text>
+<text x="174" y="504" text-anchor="start" font-size="12" fill="#334155">Non replicato con protocolli rigorosi o conclusione errata</text>
+<text x="174" y="528" text-anchor="start" font-size="12" fill="#64748B">Priming del passo (31) · deplezione dell'io (52) · imitazione neonatale (55) · 5-HTTLPR e stress (75)</text>
+<line x1="60" y1="108" x2="60" y2="546" stroke="#334155" stroke-width="3"/><path d="M52 118 L60 104 L68 118 Z" fill="#334155"/>
+<text x="38" y="327.0" transform="rotate(-90 38 327.0)" text-anchor="middle" font-size="13" fill="#334155" font-weight="bold">solidità crescente</text>
+<text x="480.0" y="576" text-anchor="middle" font-size="12" fill="#64748B">Una lettura, non un verdetto: le collocazioni possono cambiare con nuovi dati, in entrambe le direzioni.</text>
+
+</svg>

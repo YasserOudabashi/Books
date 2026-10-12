@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="460" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">L'effetto di disinformazione</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Lo stesso filmato, una parola diversa nella domanda, una stima diversa</text>
+
+  <!-- film box -->
+  <rect x="360" y="95" width="180" height="90" rx="8" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="130" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">Filmato dell'incidente</text>
+  <text x="450" y="150" text-anchor="middle" font-size="11" fill="#475569">visto da tutti i partecipanti</text>
+  <text x="450" y="168" text-anchor="middle" font-size="11" fill="#475569">(nessun vetro rotto)</text>
+
+  <!-- arrows down to two conditions -->
+  <path d="M 400,185 L 260,240" stroke="#94A3B8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 500,185 L 640,240" stroke="#94A3B8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+
+  <!-- condition A -->
+  <rect x="120" y="245" width="280" height="90" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="260" y="270" text-anchor="middle" font-size="12" font-weight="bold" fill="#1E3A8A">Domanda con "tamponate"</text>
+  <text x="260" y="290" text-anchor="middle" font-size="11" fill="#1E40AF">stima di velocità più bassa</text>
+  <text x="260" y="308" text-anchor="middle" font-size="11" fill="#1E40AF">pochi riportano vetri rotti</text>
+  <text x="260" y="325" text-anchor="middle" font-size="10" fill="#3B82F6">(mai presenti nel filmato)</text>
+
+  <!-- condition B -->
+  <rect x="500" y="245" width="280" height="90" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="640" y="270" text-anchor="middle" font-size="12" font-weight="bold" fill="#7F1D1D">Domanda con "schiantate"</text>
+  <text x="640" y="290" text-anchor="middle" font-size="11" fill="#991B1B">stima di velocità più alta</text>
+  <text x="640" y="308" text-anchor="middle" font-size="11" fill="#991B1B">più partecipanti riportano vetri rotti</text>
+  <text x="640" y="325" text-anchor="middle" font-size="10" fill="#DC2626">(falso ricordo, mai presenti nel filmato)</text>
+
+  <!-- outcome -->
+  <rect x="200" y="365" width="500" height="70" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="390" text-anchor="middle" font-size="12" font-weight="bold" fill="#92400E">La sola parola scelta nella domanda</text>
+  <text x="450" y="410" text-anchor="middle" font-size="11" fill="#92400E">ha modificato il ricordo dell'evento originale, non solo la sua descrizione</text>
+</svg>

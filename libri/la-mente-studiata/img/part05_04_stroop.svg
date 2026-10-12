@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="440" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Il compito di Stroop</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Nominare il colore dell'inchiostro, ignorando il significato della parola</text>
+
+  <!-- Congruent condition -->
+  <rect x="90" y="100" width="330" height="240" rx="8" fill="#F0FDF4" stroke="#16A34A" stroke-width="2"/>
+  <text x="255" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#14532D">Condizione congruente</text>
+  <text x="255" y="200" text-anchor="middle" font-size="36" font-weight="bold" fill="#DC2626">ROSSO</text>
+  <text x="255" y="260" text-anchor="middle" font-size="12" fill="#14532D">parola e colore coincidono</text>
+  <text x="255" y="300" text-anchor="middle" font-size="12" font-weight="bold" fill="#166534">risposta rapida, pochi errori</text>
+
+  <!-- Incongruent condition -->
+  <rect x="480" y="100" width="330" height="240" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="645" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#7F1D1D">Condizione incongruente</text>
+  <text x="645" y="200" text-anchor="middle" font-size="36" font-weight="bold" fill="#059669">ROSSO</text>
+  <text x="645" y="260" text-anchor="middle" font-size="12" fill="#7F1D1D">parola e colore in conflitto</text>
+  <text x="645" y="300" text-anchor="middle" font-size="12" font-weight="bold" fill="#991B1B">risposta più lenta, più errori</text>
+
+  <text x="450" y="390" text-anchor="middle" font-size="12" fill="#334155">La lettura automatizzata della parola interferisce con la nomina volontaria del colore, anche quando è irrilevante per il compito.</text>
+</svg>

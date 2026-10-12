@@ -1,0 +1,7 @@
+# Generati a ogni build da scripts/build-index.py
+/libri/index.html
+/libri/404.html
+
+# Robaccia di sistema
+.DS_Store
+Thumbs.db

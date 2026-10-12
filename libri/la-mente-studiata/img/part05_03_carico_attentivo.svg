@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">La teoria del carico percettivo</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Le risorse attentive residue determinano se un distrattore viene notato</text>
+
+  <!-- Low load scenario -->
+  <rect x="80" y="100" width="340" height="300" rx="8" fill="#F0FDF4" stroke="#16A34A" stroke-width="2"/>
+  <text x="250" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#14532D">Carico percettivo basso</text>
+  <rect x="120" y="160" width="260" height="30" rx="4" fill="#DCFCE7" stroke="#16A34A"/>
+  <text x="250" y="180" text-anchor="middle" font-size="11" fill="#14532D">compito principale (facile)</text>
+  <rect x="120" y="210" width="100" height="60" rx="4" fill="#16A34A" opacity="0.85"/>
+  <text x="170" y="245" text-anchor="middle" font-size="10" fill="#FFFFFF">risorse usate</text>
+  <rect x="230" y="210" width="150" height="60" rx="4" fill="#BBF7D0" stroke="#16A34A" stroke-dasharray="4,3"/>
+  <text x="305" y="240" text-anchor="middle" font-size="10" fill="#14532D">risorse in eccesso</text>
+  <text x="305" y="255" text-anchor="middle" font-size="10" fill="#14532D">→ distrattore elaborato</text>
+  <text x="250" y="330" text-anchor="middle" font-size="12" fill="#166534">Il distrattore viene notato</text>
+  <text x="250" y="348" text-anchor="middle" font-size="12" fill="#166534">(risorse libere si riversano su di esso)</text>
+
+  <!-- High load scenario -->
+  <rect x="480" y="100" width="340" height="300" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="650" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#7F1D1D">Carico percettivo alto</text>
+  <rect x="520" y="160" width="260" height="30" rx="4" fill="#FEE2E2" stroke="#DC2626"/>
+  <text x="650" y="180" text-anchor="middle" font-size="11" fill="#7F1D1D">compito principale (difficile)</text>
+  <rect x="520" y="210" width="260" height="60" rx="4" fill="#DC2626" opacity="0.85"/>
+  <text x="650" y="235" text-anchor="middle" font-size="10" fill="#FFFFFF">tutte le risorse usate</text>
+  <text x="650" y="250" text-anchor="middle" font-size="10" fill="#FFFFFF">dal compito principale</text>
+  <text x="650" y="330" text-anchor="middle" font-size="12" fill="#991B1B">Il distrattore non viene notato</text>
+  <text x="650" y="348" text-anchor="middle" font-size="12" fill="#991B1B">(nessuna risorsa residua disponibile)</text>
+
+  <text x="450" y="440" text-anchor="middle" font-size="12" fill="#334155">Lo stesso stimolo distraente, la stessa persona: notato o ignorato a seconda del carico del compito principale.</text>
+</svg>

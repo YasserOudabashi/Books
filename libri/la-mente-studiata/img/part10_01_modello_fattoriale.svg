@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="900" height="520" fill="#FFFFFF"/>
+<text x="450.0" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Il modello a un fattore</text>
+<text x="450.0" y="60" text-anchor="middle" font-size="13" fill="#64748B">Un fattore non osservato spiega le correlazioni tra tre domande</text>
+<ellipse cx="170" cy="280" rx="95" ry="48" fill="#E0F2FE" stroke="#0284C7" stroke-width="2.5"/>
+<text x="170" y="276" text-anchor="middle" font-size="15" font-weight="bold" fill="#0C4A6E">Fattore</text>
+<text x="170" y="295" text-anchor="middle" font-size="12" fill="#0C4A6E">(non osservato)</text>
+<line x1="265" y1="280" x2="525" y2="150" stroke="#334155" stroke-width="2.5"/>
+<rect x="530" y="124" width="260" height="52" rx="6" fill="#F8FAFC" stroke="#334155" stroke-width="2"/>
+<text x="660" y="155" text-anchor="middle" font-size="14" fill="#334155">Mi piace stare in compagnia</text>
+<rect x="352" y="202.0" width="72" height="26" rx="4" fill="#FFFFFF" stroke="#0284C7"/><text x="388" y="220.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0284C7">λ = 0,8</text>
+<line x1="265" y1="280" x2="525" y2="280" stroke="#334155" stroke-width="2.5"/>
+<rect x="530" y="254" width="260" height="52" rx="6" fill="#F8FAFC" stroke="#334155" stroke-width="2"/>
+<text x="660" y="285" text-anchor="middle" font-size="14" fill="#334155">Parlo con gli sconosciuti</text>
+<rect x="352" y="267.0" width="72" height="26" rx="4" fill="#FFFFFF" stroke="#0284C7"/><text x="388" y="285.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0284C7">λ = 0,7</text>
+<line x1="265" y1="280" x2="525" y2="410" stroke="#334155" stroke-width="2.5"/>
+<rect x="530" y="384" width="260" height="52" rx="6" fill="#F8FAFC" stroke="#334155" stroke-width="2"/>
+<text x="660" y="415" text-anchor="middle" font-size="14" fill="#334155">Mi annoio da solo</text>
+<rect x="352" y="332.0" width="72" height="26" rx="4" fill="#FFFFFF" stroke="#0284C7"/><text x="388" y="350.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0284C7">λ = 0,6</text>
+<text x="450" y="475" text-anchor="middle" font-size="13" fill="#334155">Correlazioni previste: r₁₂ = 0,8 · 0,7 = 0,56   r₁₃ = 0,8 · 0,6 = 0,48   r₂₃ = 0,7 · 0,6 = 0,42</text>
+<text x="450" y="497" text-anchor="middle" font-size="11" fill="#64748B">Valori illustrativi costruiti per il libro. λ = peso fattoriale.</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Il modello strutturale: Es, Io, Super-io</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Tre istanze in tensione reciproca, non tre luoghi fisici del cervello</text>
+
+  <!-- Es -->
+  <circle cx="270" cy="260" r="130" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="270" y="230" text-anchor="middle" font-size="18" font-weight="bold" fill="#991B1B">Es (id)</text>
+  <text x="270" y="255" text-anchor="middle" font-size="12" fill="#7F1D1D">pulsioni e desideri</text>
+  <text x="270" y="272" text-anchor="middle" font-size="12" fill="#7F1D1D">non filtrati</text>
+  <text x="270" y="292" text-anchor="middle" font-size="11" fill="#991B1B">principio di piacere</text>
+
+  <!-- Super-io -->
+  <circle cx="630" cy="260" r="130" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="630" y="230" text-anchor="middle" font-size="18" font-weight="bold" fill="#1E3A8A">Super-io (superego)</text>
+  <text x="630" y="255" text-anchor="middle" font-size="12" fill="#1E40AF">norme e divieti</text>
+  <text x="630" y="272" text-anchor="middle" font-size="12" fill="#1E40AF">interiorizzati</text>
+  <text x="630" y="292" text-anchor="middle" font-size="11" fill="#1E3A8A">giudizio, censura morale</text>
+
+  <!-- Io overlap -->
+  <circle cx="450" cy="260" r="100" fill="#F0FDF4" stroke="#16A34A" stroke-width="2.5" opacity="0.92"/>
+  <text x="450" y="245" text-anchor="middle" font-size="18" font-weight="bold" fill="#14532D">Io (ego)</text>
+  <text x="450" y="268" text-anchor="middle" font-size="12" fill="#166534">media tra pulsioni,</text>
+  <text x="450" y="285" text-anchor="middle" font-size="12" fill="#166534">norme e realtà esterna</text>
+  <text x="450" y="303" text-anchor="middle" font-size="11" fill="#14532D">principio di realtà</text>
+
+  <text x="450" y="440" text-anchor="middle" font-size="13" fill="#334155">Gran parte della vita psichica quotidiana è descritta come un compromesso continuo</text>
+  <text x="450" y="460" text-anchor="middle" font-size="13" fill="#334155">tra le pressioni dell'Es, i vincoli del Super-io e i limiti imposti dalla realtà.</text>
+  <text x="450" y="495" text-anchor="middle" font-size="12" fill="#94A3B8">Applicato al caso del sogno (cap. 9) e a quello del delirio (cap. 12).</text>
+</svg>
