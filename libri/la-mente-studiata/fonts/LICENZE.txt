@@ -1,0 +1,7 @@
+Caratteri usati dal libro, sottoinsieme "latin" in formato woff2 (da Fontsource).
+Tutti sotto SIL Open Font License 1.1 (https://openfontlicense.org):
+uso, copia e ridistribuzione liberi, anche nel sito.
+
+- PT Serif     (c) ParaType Inc.            https://fonts.google.com/specimen/PT+Serif
+- Roboto Slab  (c) The Roboto Slab Authors  https://fonts.google.com/specimen/Roboto+Slab
+- Inter        (c) The Inter Authors        https://fonts.google.com/specimen/Inter
