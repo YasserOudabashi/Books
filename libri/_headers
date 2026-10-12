@@ -1,0 +1,35 @@
+# Regole di cache per Cloudflare Pages (sostituiscono quelle di nginx.conf).
+# Cloudflare legge questo file in fase di deploy e NON lo pubblica.
+# L'HTML non e' qui di proposito: Cloudflare lo fa rivalidare a ogni visita,
+# cosi' un nuovo deploy si vede subito.
+
+# CSS e JS: cache breve (1 ora)
+/*.css
+  Cache-Control: public, max-age=3600
+/*.js
+  Cache-Control: public, max-age=3600
+
+# Immagini e font: cambiano insieme al libro, cache lunga (30 giorni)
+/*.png
+  Cache-Control: public, max-age=2592000
+/*.jpg
+  Cache-Control: public, max-age=2592000
+/*.jpeg
+  Cache-Control: public, max-age=2592000
+/*.gif
+  Cache-Control: public, max-age=2592000
+/*.svg
+  Cache-Control: public, max-age=2592000
+/*.webp
+  Cache-Control: public, max-age=2592000
+/*.ico
+  Cache-Control: public, max-age=2592000
+/*.woff
+  Cache-Control: public, max-age=2592000
+/*.woff2
+  Cache-Control: public, max-age=2592000
+
+# Sicurezza di base, per tutte le pagine
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
