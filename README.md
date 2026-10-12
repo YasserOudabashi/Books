@@ -1,13 +1,13 @@
 # Books — libri statici su Cloudflare Pages
 
 Raccolta di libri in HTML, pubblicati **gratis** su **Cloudflare Pages**, in
-HTTPS, su un indirizzo del tipo `https://<nome-progetto>.pages.dev`.
+HTTPS:
 
-- Elenco dei libri: `https://<nome-progetto>.pages.dev/`
-- Un libro: `https://<nome-progetto>.pages.dev/la-mente-studiata/`
+- Elenco dei libri: **https://books-alr.pages.dev/**
+- Un libro: **https://books-alr.pages.dev/la-mente-studiata/**
 
-(`<nome-progetto>` è il nome scelto alla creazione del progetto su Cloudflare:
-vedi [Configurazione una tantum](#configurazione-una-tantum).)
+(Il suffisso `-alr` l'ha aggiunto Cloudflare perché `books.pages.dev`
+era già preso. Vedi [Configurazione una tantum](#configurazione-una-tantum).)
 
 **Il deploy è automatico**: ogni push su `main` pubblica il sito. Aggiungere un
 libro = aggiungere una cartella in `libri/` e fare push. Niente server, niente
@@ -21,13 +21,13 @@ container, niente secret su GitHub.
 │ libri/<slug>/ │ ────► │ Books (main) │ ────────► │ 1. clona il repo                     │
 └───────────────┘       └──────────────┘           │ 2. python3 scripts/build-index.py    │
                                                    │ 3. pubblica la cartella libri/       │
-                                                   │    su https://<nome>.pages.dev       │
+                                                   │    su https://books-alr.pages.dev    │
                                                    └──────────────────────────────────────┘
 ```
 
 1. Ogni libro è una cartella dentro `libri/`, con un `index.html` e i suoi file
    (immagini, css, js). Il nome della cartella — lo *slug* — diventa l'indirizzo:
-   `libri/la-mente-studiata/` → `https://<nome>.pages.dev/la-mente-studiata/`.
+   `libri/la-mente-studiata/` → `https://books-alr.pages.dev/la-mente-studiata/`.
 2. Cloudflare è collegato al repo GitHub. A ogni push su `main`:
    - scarica il repo;
    - lancia il **comando di build** `python3 scripts/build-index.py libri`, che
@@ -36,7 +36,7 @@ container, niente secret su GitHub.
      git: nessun elenco da aggiornare a mano);
    - pubblica il contenuto della cartella **`libri`** sulla sua rete.
 3. Un push su un **altro branch** non tocca il sito: Cloudflare crea un'anteprima
-   separata (`https://<branch>.<nome>.pages.dev`), utile per controllare prima
+   separata (`https://<branch>.books-alr.pages.dev`), utile per controllare prima
    del merge.
 4. `libri/_headers` contiene le regole di cache (CSS/JS 1 ora, immagini 30
    giorni; l'HTML viene ricontrollato a ogni visita, così un deploy si vede
@@ -122,7 +122,7 @@ git push
 ```
 
 Dopo un minuto circa il libro è online su
-`https://<nome>.pages.dev/storia-della-mente/` e compare da solo nella home.
+`https://books-alr.pages.dev/storia-della-mente/` e compare da solo nella home.
 L'esito si vede nel pannello Cloudflare → progetto → **Deployments** (e su
 GitHub, come spunta accanto al commit).
 
@@ -216,7 +216,7 @@ che funzionano ancora.
   conosce l'indirizzo. Il repo GitHub è privato, il sito no. Se un giorno serve
   un accesso protetto, Cloudflare Access (gratis fino a 50 utenti) si può mettere
   davanti al progetto senza toccare il codice.
-- **Anteprime dei branch pubbliche**: anche gli indirizzi `<branch>.<nome>.pages.dev`
+- **Anteprime dei branch pubbliche**: anche gli indirizzi `<branch>.books-alr.pages.dev`
   sono raggiungibili da chiunque li conosca.
 - **Peso**: ogni libro con le immagini pesa qualche MB nel repo (`la-mente-studiata`
   circa 7 MB). Con molti libri conviene comprimere le immagini (es. WebP).
