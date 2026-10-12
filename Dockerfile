@@ -1,5 +1,6 @@
 # Books — un unico container nginx che serve tutti i libri statici.
-# Stesso schema di deploy del progetto VRS: git pull -> docker build -> systemctl restart.
+# RISERVA: il sito e' pubblicato su Cloudflare Pages; questo file serve solo
+# per un'anteprima con Docker o per tornare al VPS (vedi README).
 
 # Stage 1: genera la home con l'elenco dei libri e la pagina 404.
 # Serve solo in build, cosi' il VPS non ha bisogno di Python installato.

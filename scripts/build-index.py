@@ -8,7 +8,7 @@ stesso (<title> e <p class="subtitle">), la copertina e' il primo file
 
 Uso:  python3 scripts/build-index.py [cartella-libri]   (default: libri)
 Scrive: <cartella-libri>/index.html e <cartella-libri>/404.html
-Entrambi i file sono rigenerati a ogni build Docker, quindi non vanno committati.
+Entrambi i file sono rigenerati a ogni build (Cloudflare Pages), quindi non vanno committati.
 """
 
 import html
