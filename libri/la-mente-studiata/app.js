@@ -1,52 +1,89 @@
-// La mente studiata — comportamento del sito (tema, dimensione testo, menu, avanzamento, indice).
+// La mente studiata — comportamento del sito (impostazioni di lettura, indice laterale, avanzamento).
 (function () {
   var root = document.documentElement;
   function get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
 
-  // --- tema e dimensione (il valore iniziale è già applicato da uno script nell'<head>) ---
-  function applyTheme(t) {
-    if (t === 'light' || t === 'dark' || t === 'base') root.setAttribute('data-theme', t);
-    else root.removeAttribute('data-theme');
-    set('ms-theme', t || 'auto');
-    mark('[data-theme-btn]', 'themeBtn', t || 'auto');
+  // --- impostazioni di lettura (i valori salvati sono già applicati dallo script nell'<head>) ---
+  // Ogni scelta è un attributo di <html> (data-theme, data-font, ...) e una chiave ms-* nel browser.
+  var DEFAULTS = { theme: 'auto', font: 'serif', size: '2', leading: 'normal', width: 'normal' };
+  function currentValue(key) { return root.getAttribute('data-' + key) || DEFAULTS[key]; }
+  function applySetting(key, val) {
+    if (val === DEFAULTS[key]) root.removeAttribute('data-' + key); else root.setAttribute('data-' + key, val);
+    set('ms-' + key, val);
+    markSettings();
   }
-  function applySize(s) {
-    if (s === 's' || s === 'l') root.setAttribute('data-size', s); else root.removeAttribute('data-size');
-    set('ms-size', s || 'm');
-    mark('[data-size-btn]', 'sizeBtn', s || 'm');
-  }
-  function mark(sel, key, val) {
-    document.querySelectorAll(sel).forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset[key] === val)); });
-  }
-  document.querySelectorAll('[data-theme-btn]').forEach(function (b) {
-    b.addEventListener('click', function () { applyTheme(b.dataset.themeBtn); });
-  });
-  document.querySelectorAll('[data-size-btn]').forEach(function (b) {
-    b.addEventListener('click', function () { applySize(b.dataset.sizeBtn); });
-  });
-  mark('[data-theme-btn]', 'themeBtn', get('ms-theme') || 'auto');
-  mark('[data-size-btn]', 'sizeBtn', get('ms-size') || 'm');
-
-  // --- popover impostazioni ---
-  var pop = document.getElementById('settings-pop'), sbtn = document.getElementById('settings-btn');
-  if (pop && sbtn) {
-    sbtn.addEventListener('click', function (e) {
-      e.stopPropagation();
-      var open = pop.classList.toggle('open');
-      sbtn.setAttribute('aria-expanded', String(open));
+  function markSettings() {
+    document.querySelectorAll('[data-set]').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.dataset.value === currentValue(b.dataset.set)));
     });
-    document.addEventListener('click', function (e) { if (!pop.contains(e.target)) { pop.classList.remove('open'); sbtn.setAttribute('aria-expanded', 'false'); } });
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { pop.classList.remove('open'); document.body.classList.remove('menu-open'); } });
+  }
+  document.querySelectorAll('[data-set]').forEach(function (b) {
+    b.addEventListener('click', function () { applySetting(b.dataset.set, b.dataset.value); });
+  });
+  markSettings();
+
+  // --- pannelli: indice a sinistra, impostazioni a destra ---
+  var body = document.body;
+  var mbtn = document.getElementById('menu-btn'), sbtn = document.getElementById('settings-btn');
+  var sidebar = document.querySelector('.sidebar'), scrim = document.querySelector('.scrim');
+  var hotzone = document.querySelector('.toc-hotzone');
+  var openedByHover = false;
+
+  function openMenu(byHover) {
+    closeSettings();
+    openedByHover = byHover;
+    body.classList.add('menu-open');
+    body.classList.toggle('menu-pinned', !byHover); // aperto col clic: sfondo scuro, resta aperto
+    if (mbtn) mbtn.setAttribute('aria-expanded', 'true');
+    centerActive();
+  }
+  // Porta in vista, dentro l'indice, il capitolo che si sta leggendo.
+  function centerActive() {
+    var a = sidebar && sidebar.querySelector('li a.active');
+    if (a) sidebar.scrollTop = a.offsetTop - sidebar.clientHeight / 2;
+  }
+  function closeMenu() {
+    openedByHover = false;
+    body.classList.remove('menu-open', 'menu-pinned');
+    if (mbtn) mbtn.setAttribute('aria-expanded', 'false');
+  }
+  function openSettings() {
+    closeMenu();
+    body.classList.add('settings-open');
+    if (sbtn) sbtn.setAttribute('aria-expanded', 'true');
+  }
+  function closeSettings() {
+    body.classList.remove('settings-open');
+    if (sbtn) sbtn.setAttribute('aria-expanded', 'false');
   }
 
-  // --- menu laterale su schermi piccoli ---
-  var mbtn = document.getElementById('menu-btn'), scrim = document.querySelector('.scrim');
-  if (mbtn) mbtn.addEventListener('click', function () { document.body.classList.toggle('menu-open'); });
-  if (scrim) scrim.addEventListener('click', function () { document.body.classList.remove('menu-open'); });
-  document.querySelectorAll('.sidebar a').forEach(function (a) {
-    a.addEventListener('click', function () { document.body.classList.remove('menu-open'); });
+  if (mbtn) mbtn.addEventListener('click', function () {
+    if (body.classList.contains('menu-pinned')) closeMenu(); else openMenu(false);
   });
+  if (sbtn) sbtn.addEventListener('click', function () {
+    if (body.classList.contains('settings-open')) closeSettings(); else openSettings();
+  });
+  var sclose = document.getElementById('settings-close');
+  if (sclose) sclose.addEventListener('click', closeSettings);
+  if (scrim) scrim.addEventListener('click', function () { closeMenu(); closeSettings(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeMenu(); closeSettings(); } });
+  document.querySelectorAll('.sidebar a').forEach(function (a) { a.addEventListener('click', closeMenu); });
+
+  // Apertura col mouse sul bordo sinistro, solo con un mouse vero: sui touch
+  // screen un tocco sul bordo la aprirebbe per sbaglio (lì resta il pulsante ☰).
+  // Si chiude quando il mouse si allontana dal pannello, non al "mouseleave":
+  // se il mouse sfiora il bordo e scappa subito a destra, il pannello non
+  // riceverebbe mai l'evento e resterebbe aperto sopra il testo.
+  var finePointer = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  if (hotzone && sidebar && finePointer) {
+    hotzone.addEventListener('mouseenter', function () {
+      if (!body.classList.contains('menu-open') && !body.classList.contains('settings-open')) openMenu(true);
+    });
+    document.addEventListener('mousemove', function (e) {
+      if (openedByHover && e.clientX > sidebar.offsetWidth + 24) closeMenu();
+    }, { passive: true });
+  }
 
   // --- barra di avanzamento e "torna su" ---
   var bar = document.querySelector('.progress'), top = document.getElementById('to-top');
@@ -72,11 +109,7 @@
           if (!a || a === current) return;
           if (current) current.classList.remove('active');
           a.classList.add('active'); current = a;
-          var sb = document.querySelector('.sidebar');
-          if (sb && window.innerWidth >= 1000) {
-            var r = a.getBoundingClientRect(), sr = sb.getBoundingClientRect();
-            if (r.top < sr.top + 60 || r.bottom > sr.bottom - 60) a.scrollIntoView({ block: 'center' });
-          }
+          if (body.classList.contains('menu-open')) centerActive();
         }
       });
     }, { rootMargin: '-10% 0px -80% 0px' });

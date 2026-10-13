@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>La mente studiata</title>
-<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('ms-theme'),s=localStorage.getItem('ms-size');if(t==='light'||t==='dark'||t==='base')d.setAttribute('data-theme',t);if(s==='s'||s==='l')d.setAttribute('data-size',s);}catch(e){}})();</script>
+<script>(function(){try{var d=document.documentElement,g=function(k){return localStorage.getItem(k)},o={'ms-theme':['light','dark','royal'],'ms-font':['serif','slab','sans'],'ms-size':['1','2','3','4'],'ms-leading':['tight','normal','loose'],'ms-width':['normal','wide']},m={s:'1',m:'2',l:'3'},k,v;for(k in o){v=g(k);if(k==='ms-size'&&m[v])v=m[v];if(o[k].indexOf(v)>-1)d.setAttribute('data-'+k.slice(3),v);}}catch(e){}})();</script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,24 +12,7 @@
 
 <a class="brand" href="index.html">La mente studiata</a>
 <span class="spacer"></span>
-<div class="settings">
-<button class="tb-btn" id="settings-btn" aria-expanded="false" aria-controls="settings-pop" title="Aspetto e dimensione del testo">Aa</button>
-<div class="pop" id="settings-pop" role="dialog" aria-label="Aspetto">
-<h4>Tema</h4>
-<div class="group">
-<button data-theme-btn="auto" aria-pressed="false">Auto</button>
-<button data-theme-btn="light" aria-pressed="false">Chiaro</button>
-<button data-theme-btn="dark" aria-pressed="false">Scuro</button>
-<button data-theme-btn="base" aria-pressed="false">Base</button>
-</div>
-<h4>Testo</h4>
-<div class="group two">
-<button data-size-btn="s" aria-pressed="false">Piccolo</button>
-<button data-size-btn="m" aria-pressed="false">Medio</button>
-<button data-size-btn="l" aria-pressed="false">Grande</button>
-</div>
-<p class="hint">Auto segue il tema del dispositivo. Base è lo stile semplice originale, senza barra laterale.</p>
-</div></div>
+<button class="tb-btn" id="settings-btn" aria-expanded="false" aria-controls="settings-panel" title="Impostazioni di lettura">Aa</button>
 <div class="progress" aria-hidden="true"></div>
 </header>
 <div class="layout">
@@ -130,6 +113,42 @@
 </main>
 </div>
 <button class="tb-btn" id="to-top" aria-label="Torna all'inizio">&uarr;</button>
+<div class="scrim"></div>
+<aside class="settings-panel" id="settings-panel" aria-label="Impostazioni di lettura">
+<div class="sp-head"><h3>Impostazioni di lettura</h3><button class="tb-btn sp-close" id="settings-close" aria-label="Chiudi le impostazioni">&times;</button></div>
+<h4>Tema</h4>
+<div class="group">
+<button data-set="theme" data-value="auto" aria-pressed="false">Auto</button>
+<button data-set="theme" data-value="light" aria-pressed="false">Chiaro</button>
+<button data-set="theme" data-value="dark" aria-pressed="false">Scuro</button>
+<button data-set="theme" data-value="royal" aria-pressed="false">Reale</button>
+</div>
+<h4>Larghezza colonna</h4>
+<div class="group">
+<button data-set="width" data-value="normal" aria-pressed="false">Normale</button>
+<button data-set="width" data-value="wide" aria-pressed="false">Larga</button>
+</div>
+<h4>Carattere</h4>
+<div class="group">
+<button data-set="font" data-value="serif" aria-pressed="false">Serif</button>
+<button data-set="font" data-value="slab" aria-pressed="false">Slab</button>
+<button data-set="font" data-value="sans" aria-pressed="false">Sans</button>
+</div>
+<h4>Dimensione</h4>
+<div class="group sizes">
+<button data-set="size" data-value="1" aria-pressed="false" aria-label="Dimensione 1">A</button>
+<button data-set="size" data-value="2" aria-pressed="false" aria-label="Dimensione 2">A</button>
+<button data-set="size" data-value="3" aria-pressed="false" aria-label="Dimensione 3">A</button>
+<button data-set="size" data-value="4" aria-pressed="false" aria-label="Dimensione 4">A</button>
+</div>
+<h4>Interlinea</h4>
+<div class="group">
+<button data-set="leading" data-value="tight" aria-pressed="false">Stretta</button>
+<button data-set="leading" data-value="normal" aria-pressed="false">Normale</button>
+<button data-set="leading" data-value="loose" aria-pressed="false">Ampia</button>
+</div>
+<p class="hint">Auto segue il tema del dispositivo. Le scelte restano salvate in questo browser.</p>
+</aside>
 <script src="app.js"></script>
 </body>
 </html>

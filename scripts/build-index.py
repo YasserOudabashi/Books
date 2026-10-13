@@ -56,12 +56,24 @@ STILE = """
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme]) {
     --bg: #14181f; --surface: #1b212b; --text: #d6dae1; --muted: #9aa3b2;
     --line: #2c3544; --link: #8db4ff; --accent: #8da2ff;
     --shadow: 0 6px 24px rgba(0, 0, 0, .5);
     color-scheme: dark;
   }
+}
+:root[data-theme="dark"] {
+  --bg: #14181f; --surface: #1b212b; --text: #d6dae1; --muted: #9aa3b2;
+  --line: #2c3544; --link: #8db4ff; --accent: #8da2ff;
+  --shadow: 0 6px 24px rgba(0, 0, 0, .5);
+  color-scheme: dark;
+}
+:root[data-theme="royal"] {
+  --bg: #0b1220; --surface: #121b30; --text: #e8e2cf; --muted: #93a0bd;
+  --line: #2a3454; --link: #ddbb64; --accent: #cea847;
+  --shadow: 0 6px 24px rgba(0, 0, 0, .55);
+  color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body {
@@ -97,6 +109,13 @@ footer { margin-top: 3rem; color: var(--muted); font-size: .85rem; }
 @media (max-width: 30rem) { a.card { grid-template-columns: 4rem 1fr; gap: .9rem; } }
 """
 
+# Tema scelto dal lettore dentro un libro (stessa chiave "ms-theme" del libro):
+# applicato prima del disegno, così la home non lampeggia col tema sbagliato.
+TEMA = (
+    "<script>(function(){try{var t=localStorage.getItem('ms-theme');"
+    "if(t==='light'||t==='dark'||t==='royal')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>"
+)
+
 
 def pagina(titolo: str, corpo: str) -> str:
     return f"""<!DOCTYPE html>
@@ -105,6 +124,7 @@ def pagina(titolo: str, corpo: str) -> str:
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(titolo)}</title>
+{TEMA}
 <style>{STILE}</style>
 </head>
 <body>
