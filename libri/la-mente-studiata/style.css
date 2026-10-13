@@ -115,7 +115,10 @@ a:hover { text-decoration-thickness: 2px; }
 }
 .tb-btn:hover { background: var(--surface-2); }
 a.tb-btn { display: inline-block; text-decoration: none; }
-.lang-btn { font-weight: 700; letter-spacing: .04em; }
+.lang-switch { display: inline-flex; gap: .2rem; }
+.lang-btn { font-weight: 700; letter-spacing: .04em; padding: .35rem .5rem; }
+.lang-btn[aria-current="page"] { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+@media (max-width: 360px) { .topbar .brand { display: none; } }
 .progress { position: absolute; left: 0; bottom: -1px; height: 3px; width: 0; background: var(--accent); transition: width .1s linear; }
 
 /* ---------- pannello impostazioni (da destra) ---------- */

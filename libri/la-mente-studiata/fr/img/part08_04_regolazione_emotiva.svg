@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Réévaluation et suppression comparées</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Effet sur trois mesures indépendantes du même événement émotionnel</text>
+
+  <!-- Header row -->
+  <rect x="330" y="95" width="180" height="35" rx="6" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <text x="420" y="118" text-anchor="middle" font-size="12" font-weight="bold" fill="#065F46">Réévaluation</text>
+  <rect x="530" y="95" width="180" height="35" rx="6" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="620" y="118" text-anchor="middle" font-size="12" font-weight="bold" fill="#7F1D1D">Suppression</text>
+
+  <!-- Row 1: esperienza soggettiva -->
+  <text x="150" y="163" font-size="12" fill="#334155" font-weight="bold">Expérience subjective</text>
+  <rect x="330" y="145" width="180" height="35" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1"/>
+  <text x="420" y="167" text-anchor="middle" font-size="11" fill="#065F46">Réduite</text>
+  <rect x="530" y="145" width="180" height="35" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1"/>
+  <text x="620" y="167" text-anchor="middle" font-size="11" fill="#7F1D1D">Inchangée ou accrue</text>
+
+  <!-- Row 2: attivazione fisiologica -->
+  <text x="150" y="218" font-size="12" fill="#334155" font-weight="bold">Activation physiologique</text>
+  <rect x="330" y="200" width="180" height="35" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1"/>
+  <text x="420" y="222" text-anchor="middle" font-size="11" fill="#065F46">Réduite</text>
+  <rect x="530" y="200" width="180" height="35" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1"/>
+  <text x="620" y="222" text-anchor="middle" font-size="11" fill="#7F1D1D">Inchangée ou accrue</text>
+
+  <!-- Row 3: espressione visibile -->
+  <text x="150" y="273" font-size="12" fill="#334155" font-weight="bold">Expression visible</text>
+  <rect x="330" y="255" width="180" height="35" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1"/>
+  <text x="420" y="277" text-anchor="middle" font-size="11" fill="#065F46">Réduite</text>
+  <rect x="530" y="255" width="180" height="35" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1"/>
+  <text x="620" y="277" text-anchor="middle" font-size="11" fill="#7F1D1D">Réduite</text>
+
+  <!-- Row 4: memoria -->
+  <text x="150" y="328" font-size="12" fill="#334155" font-weight="bold">Mémoire des détails</text>
+  <rect x="330" y="310" width="180" height="35" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1"/>
+  <text x="420" y="332" text-anchor="middle" font-size="11" fill="#065F46">Inchangée</text>
+  <rect x="530" y="310" width="180" height="35" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1"/>
+  <text x="620" y="332" text-anchor="middle" font-size="11" fill="#7F1D1D">Diminuée</text>
+
+  <rect x="150" y="380" width="600" height="55" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="403" text-anchor="middle" font-size="11" font-weight="bold" fill="#92400E">Seule la suppression réduit l'expression sans réduire l'expérience interne,</text>
+  <text x="450" y="420" text-anchor="middle" font-size="11" fill="#92400E">et entraîne un coût cognitif mesurable sur la mémoire</text>
+</svg>

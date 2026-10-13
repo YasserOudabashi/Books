@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="500" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Le modèle des stades de Piaget</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Quatre stades et les tâches avec lesquelles ils ont été décrits</text>
+
+  <rect x="40" y="100" width="190" height="290" rx="8" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <text x="135" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#065F46">Sensori-moteur</text>
+  <text x="135" y="152" text-anchor="middle" font-size="12" fill="#334155">0-2 ans</text>
+  <text x="135" y="196" text-anchor="middle" font-size="12" fill="#334155">connaît le monde</text>
+  <text x="135" y="214" text-anchor="middle" font-size="12" fill="#334155">par l'action et la</text>
+  <text x="135" y="232" text-anchor="middle" font-size="12" fill="#334155">perception</text>
+  <text x="135" y="296" text-anchor="middle" font-size="11" font-weight="bold" fill="#065F46">tâche :</text>
+  <text x="135" y="314" text-anchor="middle" font-size="12" fill="#334155">erreur A-non-B</text>
+
+  <rect x="255" y="100" width="190" height="290" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="350" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#1D4ED8">Préopératoire</text>
+  <text x="350" y="152" text-anchor="middle" font-size="12" fill="#334155">2-7 ans</text>
+  <text x="350" y="196" text-anchor="middle" font-size="12" fill="#334155">symboles et langage,</text>
+  <text x="350" y="214" text-anchor="middle" font-size="12" fill="#334155">dominé par l'</text>
+  <text x="350" y="232" text-anchor="middle" font-size="12" fill="#334155">apparence</text>
+  <text x="350" y="296" text-anchor="middle" font-size="11" font-weight="bold" fill="#1D4ED8">tâches :</text>
+  <text x="350" y="314" text-anchor="middle" font-size="12" fill="#334155">conservation,</text>
+  <text x="350" y="332" text-anchor="middle" font-size="12" fill="#334155">trois montagnes</text>
+
+  <rect x="470" y="100" width="190" height="290" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="565" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400E">Opérations</text>
+  <text x="565" y="148" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400E">concrètes</text>
+  <text x="565" y="170" text-anchor="middle" font-size="12" fill="#334155">7-11 ans</text>
+  <text x="565" y="206" text-anchor="middle" font-size="12" fill="#334155">logique sur objets</text>
+  <text x="565" y="224" text-anchor="middle" font-size="12" fill="#334155">et situations</text>
+  <text x="565" y="242" text-anchor="middle" font-size="12" fill="#334155">concrètes</text>
+  <text x="565" y="296" text-anchor="middle" font-size="11" font-weight="bold" fill="#92400E">tâche :</text>
+  <text x="565" y="314" text-anchor="middle" font-size="12" fill="#334155">conservation</text>
+  <text x="565" y="332" text-anchor="middle" font-size="12" fill="#334155">acquise</text>
+
+  <rect x="685" y="100" width="190" height="290" rx="8" fill="#F5F3FF" stroke="#7C3AED" stroke-width="2"/>
+  <text x="780" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#5B21B6">Opérations</text>
+  <text x="780" y="148" text-anchor="middle" font-size="14" font-weight="bold" fill="#5B21B6">formelles</text>
+  <text x="780" y="170" text-anchor="middle" font-size="12" fill="#334155">dès 11 ans</text>
+  <text x="780" y="206" text-anchor="middle" font-size="12" fill="#334155">raisonnement sur</text>
+  <text x="780" y="224" text-anchor="middle" font-size="12" fill="#334155">hypothèses et possibilités</text>
+  <text x="780" y="242" text-anchor="middle" font-size="12" fill="#334155">abstraites</text>
+
+  <path d="M 232,245 L 253,245" stroke="#64748B" stroke-width="2" fill="none"/>
+  <path d="M 447,245 L 468,245" stroke="#64748B" stroke-width="2" fill="none"/>
+  <path d="M 662,245 L 683,245" stroke="#64748B" stroke-width="2" fill="none"/>
+
+  <rect x="100" y="420" width="700" height="52" rx="6" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="442" text-anchor="middle" font-size="12" fill="#92400E">Les âges sont indicatifs. Les révisions ultérieures montrent des passages graduels,</text>
+  <text x="450" y="460" text-anchor="middle" font-size="12" fill="#92400E">qui dépendent de la tâche utilisée pour les mesurer.</text>
+</svg>

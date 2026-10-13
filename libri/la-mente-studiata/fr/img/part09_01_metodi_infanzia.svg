@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="500" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Quatre méthodes pour étudier un sujet qui ne parle pas</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Ce qu'on présente, ce qu'on mesure, ce qu'on peut inférer</text>
+
+  <rect x="30" y="85" width="840" height="32" rx="4" fill="#334155"/>
+  <text x="45" y="106" font-size="13" font-weight="bold" fill="#FFFFFF">Méthode</text>
+  <text x="250" y="106" font-size="13" font-weight="bold" fill="#FFFFFF">On présente</text>
+  <text x="470" y="106" font-size="13" font-weight="bold" fill="#FFFFFF">On mesure</text>
+  <text x="680" y="106" font-size="13" font-weight="bold" fill="#FFFFFF">On infère</text>
+
+  <rect x="30" y="125" width="840" height="78" rx="4" fill="#F1F5F9" stroke="#CBD5E1"/>
+  <text x="45" y="158" font-size="14" font-weight="bold" fill="#065F46">Préférence visuelle</text>
+  <text x="250" y="152" font-size="12" fill="#334155">deux stimuli</text>
+  <text x="250" y="170" font-size="12" fill="#334155">côte à côte</text>
+  <text x="470" y="152" font-size="12" fill="#334155">temps de regard</text>
+  <text x="470" y="170" font-size="12" fill="#334155">pour chacun</text>
+  <text x="680" y="152" font-size="12" fill="#334155">distingue les deux stimuli</text>
+  <text x="680" y="170" font-size="12" fill="#334155">et en préfère un</text>
+
+  <rect x="30" y="211" width="840" height="78" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="45" y="244" font-size="14" font-weight="bold" fill="#065F46">Habituation</text>
+  <text x="250" y="238" font-size="12" fill="#334155">même stimulus répété,</text>
+  <text x="250" y="256" font-size="12" fill="#334155">puis un nouveau</text>
+  <text x="470" y="238" font-size="12" fill="#334155">baisse du regard,</text>
+  <text x="470" y="256" font-size="12" fill="#334155">puis remontée</text>
+  <text x="680" y="238" font-size="12" fill="#334155">distingue l'ancien</text>
+  <text x="680" y="256" font-size="12" fill="#334155">du nouveau</text>
+
+  <rect x="30" y="297" width="840" height="78" rx="4" fill="#F1F5F9" stroke="#CBD5E1"/>
+  <text x="45" y="323" font-size="14" font-weight="bold" fill="#065F46">Succion à</text>
+  <text x="45" y="341" font-size="14" font-weight="bold" fill="#065F46">haute amplitude</text>
+  <text x="250" y="330" font-size="12" fill="#334155">un son à chaque</text>
+  <text x="250" y="348" font-size="12" fill="#334155">succion forte</text>
+  <text x="470" y="330" font-size="12" fill="#334155">rythme de succion</text>
+  <text x="470" y="348" font-size="12" fill="#334155">dans le temps</text>
+  <text x="680" y="330" font-size="12" fill="#334155">distingue deux sons</text>
+  <text x="680" y="348" font-size="12" fill="#334155">(perception auditive)</text>
+
+  <rect x="30" y="383" width="840" height="78" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="45" y="409" font-size="14" font-weight="bold" fill="#065F46">Violation</text>
+  <text x="45" y="427" font-size="14" font-weight="bold" fill="#065F46">de l'attente</text>
+  <text x="250" y="416" font-size="12" fill="#334155">événement possible et</text>
+  <text x="250" y="434" font-size="12" fill="#334155">événement impossible</text>
+  <text x="470" y="416" font-size="12" fill="#334155">regard plus long</text>
+  <text x="470" y="434" font-size="12" fill="#334155">sur l'événement impossible</text>
+  <text x="680" y="416" font-size="12" fill="#92400E">peut-être : une attente</text>
+  <text x="680" y="434" font-size="12" fill="#92400E">violée (débattu)</text>
+</svg>

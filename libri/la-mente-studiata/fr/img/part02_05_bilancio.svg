@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Ce qui tient, composante par composante</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Pas un verdict unique sur toute la théorie, mais un bilan distinct pour chaque partie</text>
+
+  <!-- three columns -->
+  <rect x="50" y="90" width="250" height="360" rx="8" fill="#F0FDF4" stroke="#16A34A" stroke-width="2"/>
+  <text x="175" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#14532D">Reformulé et vérifiable</text>
+  <text x="175" y="155" text-anchor="middle" font-size="12" fill="#166534">Théorie de l'attachement</text>
+  <text x="175" y="175" text-anchor="middle" font-size="10" fill="#166534">(chap. 57)</text>
+  <text x="175" y="205" text-anchor="middle" font-size="12" fill="#166534">Inconscient cognitif</text>
+  <text x="175" y="225" text-anchor="middle" font-size="10" fill="#166534">(chap. 31, modèle différent</text>
+  <text x="175" y="240" text-anchor="middle" font-size="10" fill="#166534">du modèle dynamique)</text>
+  <text x="175" y="270" text-anchor="middle" font-size="12" fill="#166534">Compulsion de répétition</text>
+  <text x="175" y="290" text-anchor="middle" font-size="10" fill="#166534">comme pattern observable</text>
+  <text x="175" y="320" text-anchor="middle" font-size="12" fill="#166534">Efficacité clinique globale</text>
+  <text x="175" y="340" text-anchor="middle" font-size="10" fill="#166534">de la psychothérapie psychodynamique</text>
+  <text x="175" y="355" text-anchor="middle" font-size="10" fill="#166534">(Leichsenring et al., 2023)</text>
+
+  <rect x="325" y="90" width="250" height="360" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#92400E">Suspension du jugement</text>
+  <text x="450" y="155" text-anchor="middle" font-size="12" fill="#78350F">Problème de la falsifiabilité</text>
+  <text x="450" y="175" text-anchor="middle" font-size="10" fill="#78350F">de l'inconscient classique (chap. 8)</text>
+  <text x="450" y="205" text-anchor="middle" font-size="12" fill="#78350F">Méthode interprétative</text>
+  <text x="450" y="225" text-anchor="middle" font-size="10" fill="#78350F">(rêve et délire) : cohérence</text>
+  <text x="450" y="240" text-anchor="middle" font-size="10" fill="#78350F">narrative, pas de vérification indépendante</text>
+
+  <rect x="600" y="90" width="250" height="360" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="725" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#991B1B">Largement abandonné</text>
+  <text x="725" y="155" text-anchor="middle" font-size="12" fill="#7F1D1D">Symbolisme onirique</text>
+  <text x="725" y="175" text-anchor="middle" font-size="10" fill="#7F1D1D">à contenu fixe (chap. 9)</text>
+  <text x="725" y="205" text-anchor="middle" font-size="12" fill="#7F1D1D">Tout rêve comme</text>
+  <text x="725" y="225" text-anchor="middle" font-size="10" fill="#7F1D1D">accomplissement de désir,</text>
+  <text x="725" y="240" text-anchor="middle" font-size="10" fill="#7F1D1D">sans exception</text>
+  <text x="725" y="270" text-anchor="middle" font-size="12" fill="#7F1D1D">Pulsion de mort</text>
+  <text x="725" y="290" text-anchor="middle" font-size="10" fill="#7F1D1D">comme principe biologique</text>
+  <text x="725" y="305" text-anchor="middle" font-size="10" fill="#7F1D1D">universel (chap. 11)</text>
+
+  <text x="450" y="480" text-anchor="middle" font-size="12" fill="#94A3B8">Les divers éléments de la théorie ne tiennent ni ne tombent ensemble.</text>
+</svg>
