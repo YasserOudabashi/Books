@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="420" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Effect size: how much two groups overlap</text>
+
+  <!-- axis -->
+  <line x1="80" y1="330" x2="820" y2="330" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="360" text-anchor="middle" font-size="13" fill="#334155">Words recalled</text>
+
+  <!-- small d curves (heavy overlap) -->
+  <text x="230" y="80" text-anchor="middle" font-size="15" font-weight="bold" fill="#334155">d = 0.2 (small)</text>
+  <path d="M 110 320 C 150 220, 210 220, 250 320" fill="none" stroke="#0284C7" stroke-width="2.5"/>
+  <path d="M 150 320 C 190 220, 250 220, 290 320" fill="none" stroke="#475569" stroke-width="2.5" stroke-dasharray="5,4"/>
+
+  <!-- medium d -->
+  <text x="450" y="80" text-anchor="middle" font-size="15" font-weight="bold" fill="#334155">d = 0.5 (med.)</text>
+  <path d="M 350 320 C 390 220, 450 220, 490 320" fill="none" stroke="#0284C7" stroke-width="2.5"/>
+  <path d="M 420 320 C 460 220, 520 220, 560 320" fill="none" stroke="#475569" stroke-width="2.5" stroke-dasharray="5,4"/>
+
+  <!-- large d -->
+  <text x="670" y="80" text-anchor="middle" font-size="15" font-weight="bold" fill="#334155">d = 0.8 (large)</text>
+  <path d="M 590 320 C 630 220, 690 220, 730 320" fill="none" stroke="#0284C7" stroke-width="2.5"/>
+  <path d="M 660 320 C 700 220, 760 220, 800 320" fill="none" stroke="#475569" stroke-width="2.5" stroke-dasharray="5,4"/>
+
+  <!-- legend -->
+  <line x1="120" y1="390" x2="160" y2="390" stroke="#0284C7" stroke-width="3"/>
+  <text x="170" y="395" font-size="13" fill="#334155">Group A</text>
+  <line x1="280" y1="390" x2="320" y2="390" stroke="#475569" stroke-width="3" stroke-dasharray="5,4"/>
+  <text x="330" y="395" font-size="13" fill="#334155">Group B</text>
+  <text x="600" y="395" font-size="12" fill="#64748B">The more the curves part, the larger d</text>
+</svg>

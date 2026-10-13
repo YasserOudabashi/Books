@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Cross-cultural agreement in emotion recognition</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Forced choice versus free labelling, for the six basic emotions</text>
+
+  <line x1="120" y1="380" x2="800" y2="380" stroke="#334155" stroke-width="2"/>
+  <line x1="120" y1="380" x2="120" y2="100" stroke="#334155" stroke-width="2"/>
+  <text x="70" y="240" text-anchor="middle" font-size="12" fill="#334155" transform="rotate(-90 70 240)">agreement seen (%)</text>
+
+  <!-- Scelta forzata bar -->
+  <rect x="250" y="140" width="130" height="240" fill="#2563EB"/>
+  <text x="315" y="130" text-anchor="middle" font-size="12" font-weight="bold" fill="#1E3A8A">~80-90%</text>
+  <text x="315" y="405" text-anchor="middle" font-size="12" fill="#334155">Forced choice</text>
+
+  <!-- Etichettatura libera bar -->
+  <rect x="480" y="240" width="130" height="140" fill="#D97706"/>
+  <text x="545" y="230" text-anchor="middle" font-size="12" font-weight="bold" fill="#92400E">~40-50%</text>
+  <text x="545" y="405" text-anchor="middle" font-size="12" fill="#334155">Free labelling</text>
+
+  <text x="120" y="105" font-size="10" fill="#64748B">100%</text>
+  <text x="120" y="385" font-size="10" fill="#64748B">0%</text>
+
+  <rect x="150" y="430" width="600" height="40" rx="6" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="454" text-anchor="middle" font-size="11" fill="#92400E">The measurement method greatly changes the cross-cultural agreement observed</text>
+</svg>

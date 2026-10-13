@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="900" height="500" fill="#FFFFFF"/>
+<text x="450.0" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Two «if…then» profiles</text>
+<text x="450.0" y="60" text-anchor="middle" font-size="13" fill="#64748B">Same mean aggression, different profiles (illustrative values)</text><line x1="110" y1="380" x2="800" y2="380" stroke="#334155" stroke-width="2"/><line x1="110" y1="380" x2="110" y2="150" stroke="#334155" stroke-width="2"/>
+<text x="100" y="384.0" text-anchor="end" font-size="11" fill="#334155">0</text><line x1="110" y1="380.0" x2="800" y2="380.0" stroke="#E2E8F0"/>
+<text x="100" y="307.3333333333333" text-anchor="end" font-size="11" fill="#334155">3</text><line x1="110" y1="303.3333333333333" x2="800" y2="303.3333333333333" stroke="#E2E8F0"/>
+<text x="100" y="230.66666666666666" text-anchor="end" font-size="11" fill="#334155">6</text><line x1="110" y1="226.66666666666666" x2="800" y2="226.66666666666666" stroke="#E2E8F0"/>
+<text x="100" y="154.0" text-anchor="end" font-size="11" fill="#334155">9</text><line x1="110" y1="150.0" x2="800" y2="150.0" stroke="#E2E8F0"/>
+<text x="200" y="402" text-anchor="middle" font-size="12" fill="#334155">Peer</text><text x="200" y="417" text-anchor="middle" font-size="12" fill="#334155">teases</text>
+<text x="340" y="402" text-anchor="middle" font-size="12" fill="#334155">Adult</text><text x="340" y="417" text-anchor="middle" font-size="12" fill="#334155">warns</text>
+<text x="480" y="402" text-anchor="middle" font-size="12" fill="#334155">Adult</text><text x="480" y="417" text-anchor="middle" font-size="12" fill="#334155">time-out</text>
+<text x="620" y="402" text-anchor="middle" font-size="12" fill="#334155">Peer</text><text x="620" y="417" text-anchor="middle" font-size="12" fill="#334155">friendly</text>
+<text x="760" y="402" text-anchor="middle" font-size="12" fill="#334155">Adult</text><text x="760" y="417" text-anchor="middle" font-size="12" fill="#334155">lauds</text>
+<polyline points="200,201.11111111111111 340,328.8888888888889 480,303.3333333333333 620,328.8888888888889 760,354.44444444444446" fill="none" stroke="#0284C7" stroke-width="3"/><circle cx="200" cy="201.11111111111111" r="5" fill="#0284C7"/><circle cx="340" cy="328.8888888888889" r="5" fill="#0284C7"/><circle cx="480" cy="303.3333333333333" r="5" fill="#0284C7"/><circle cx="620" cy="328.8888888888889" r="5" fill="#0284C7"/><circle cx="760" cy="354.44444444444446" r="5" fill="#0284C7"/>
+<polyline points="200,328.8888888888889 340,201.11111111111111 480,303.3333333333333 620,328.8888888888889 760,354.44444444444446" fill="none" stroke="#DC2626" stroke-width="3"/><circle cx="200" cy="328.8888888888889" r="5" fill="#DC2626"/><circle cx="340" cy="201.11111111111111" r="5" fill="#DC2626"/><circle cx="480" cy="303.3333333333333" r="5" fill="#DC2626"/><circle cx="620" cy="328.8888888888889" r="5" fill="#DC2626"/><circle cx="760" cy="354.44444444444446" r="5" fill="#DC2626"/>
+<text x="214" y="197.11111111111111" font-size="13" font-weight="bold" fill="#0C4A6E">Child A</text><text x="354" y="197.11111111111111" font-size="13" font-weight="bold" fill="#991B1B">Child B</text>
+<text x="60" y="265.0" text-anchor="middle" font-size="12" fill="#334155" transform="rotate(-90 60 265.0)">Verbal aggression episodes</text>
+<text x="450" y="458" text-anchor="middle" font-size="12" fill="#334155">Mean for both: 3 episodes. The mean hides the stable difference between profiles.</text>
+<text x="450" y="478" text-anchor="middle" font-size="11" fill="#64748B">Illustrative diagram inspired by Shoda, Mischel and Wright (1994); not the original data.</text>
+</svg>

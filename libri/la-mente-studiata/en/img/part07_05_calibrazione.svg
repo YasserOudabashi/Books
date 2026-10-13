@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="500" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Confidence calibration curve</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Stated confidence systematically exceeds actual accuracy</text>
+
+  <line x1="120" y1="420" x2="780" y2="420" stroke="#334155" stroke-width="2"/>
+  <line x1="120" y1="420" x2="120" y2="100" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="455" text-anchor="middle" font-size="12" fill="#334155">stated confidence (%)</text>
+  <text x="60" y="260" text-anchor="middle" font-size="12" fill="#334155" transform="rotate(-90 60 260)">actual accuracy (%)</text>
+
+  <text x="120" y="435" text-anchor="middle" font-size="10" fill="#64748B">50</text>
+  <text x="450" y="435" text-anchor="middle" font-size="10" fill="#64748B">75</text>
+  <text x="780" y="435" text-anchor="middle" font-size="10" fill="#64748B">100</text>
+
+  <!-- ideal calibration diagonal -->
+  <line x1="120" y1="420" x2="780" y2="100" stroke="#94A3B8" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="640" y="150" font-size="11" fill="#64748B">perfect calibration</text>
+
+  <!-- actual curve, below diagonal, flatter -->
+  <path d="M 120,420 C 300,380 500,320 780,230" fill="none" stroke="#DC2626" stroke-width="3"/>
+  <text x="560" y="290" font-size="12" fill="#7F1D1D" font-weight="bold">real data</text>
+
+  <circle cx="670" cy="255" r="5" fill="#DC2626"/>
+  <text x="480" y="205" font-size="10" fill="#7F1D1D">at 90% stated confidence,</text>
+  <text x="480" y="222" font-size="10" fill="#7F1D1D">actual accuracy ~70-75%</text>
+
+  <rect x="180" y="450" width="540" height="40" rx="6" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="474" text-anchor="middle" font-size="11" fill="#92400E">The confidence-accuracy gap widens toward absolute certainty</text>
+</svg>

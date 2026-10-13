@@ -23,6 +23,21 @@
   });
   markSettings();
 
+  // --- lingua: il pulsante IT/EN porta alla stessa pagina nell'altra lingua ---
+  // Mantiene il capitolo (#cap-…, gli id sono uguali nelle due lingue) e ricorda
+  // la scelta: chi ha scelto l'inglese, aprendo la copertina italiana, va a quella inglese.
+  var lbtn = document.getElementById('lang-btn');
+  if (lbtn) lbtn.addEventListener('click', function () {
+    set('ms-lang', lbtn.getAttribute('hreflang'));
+    var hash = location.hash;
+    var current = document.querySelector('.sidebar li a.active');
+    if (!hash && current) hash = '#' + current.dataset.target;
+    if (hash) lbtn.href = lbtn.href.split('#')[0] + hash;
+  });
+  if (root.lang === 'it' && get('ms-lang') === 'en' && document.querySelector('.hero') && lbtn) {
+    location.replace(lbtn.href);
+  }
+
   // --- pannelli: indice a sinistra, impostazioni a destra ---
   var body = document.body;
   var mbtn = document.getElementById('menu-btn'), sbtn = document.getElementById('settings-btn');

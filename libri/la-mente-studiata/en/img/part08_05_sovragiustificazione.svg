@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Overjustification effect</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Time spent drawing in free play, before and after the reward</text>
+
+  <line x1="120" y1="380" x2="800" y2="380" stroke="#334155" stroke-width="2"/>
+  <line x1="120" y1="380" x2="120" y2="100" stroke="#334155" stroke-width="2"/>
+  <text x="70" y="240" text-anchor="middle" font-size="12" fill="#334155" transform="rotate(-90 70 240)">time spent drawing</text>
+
+  <!-- Gruppo premio atteso -->
+  <rect x="180" y="140" width="90" height="240" fill="#94A3B8"/>
+  <text x="225" y="130" text-anchor="middle" font-size="11" fill="#334155">pre</text>
+  <rect x="280" y="290" width="90" height="90" fill="#DC2626"/>
+  <text x="325" y="280" text-anchor="middle" font-size="11" fill="#7F1D1D">post</text>
+  <text x="275" y="405" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">Expected gift</text>
+
+  <!-- Gruppo premio inatteso -->
+  <rect x="450" y="150" width="90" height="230" fill="#94A3B8"/>
+  <text x="495" y="140" text-anchor="middle" font-size="11" fill="#334155">pre</text>
+  <rect x="550" y="155" width="90" height="225" fill="#059669"/>
+  <text x="595" y="145" text-anchor="middle" font-size="11" fill="#065F46">post</text>
+  <text x="545" y="405" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">Unexpected reward / no reward</text>
+
+  <rect x="150" y="425" width="600" height="40" rx="6" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="449" text-anchor="middle" font-size="11" fill="#92400E">Only the expected, pre-agreed reward reduces later spontaneous interest</text>
+</svg>

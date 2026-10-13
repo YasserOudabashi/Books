@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">What holds up, component by component</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">No single verdict on the whole theory, but a separate assessment for each part</text>
+
+  <!-- three columns -->
+  <rect x="50" y="90" width="250" height="360" rx="8" fill="#F0FDF4" stroke="#16A34A" stroke-width="2"/>
+  <text x="175" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#14532D">Reformulated and testable</text>
+  <text x="175" y="155" text-anchor="middle" font-size="12" fill="#166534">Attachment theory</text>
+  <text x="175" y="175" text-anchor="middle" font-size="10" fill="#166534">(ch. 57)</text>
+  <text x="175" y="205" text-anchor="middle" font-size="12" fill="#166534">Cognitive unconsc.</text>
+  <text x="175" y="225" text-anchor="middle" font-size="10" fill="#166534">(ch. 31, different model</text>
+  <text x="175" y="240" text-anchor="middle" font-size="10" fill="#166534">than the dynamic)</text>
+  <text x="175" y="270" text-anchor="middle" font-size="12" fill="#166534">Repetition compuls.</text>
+  <text x="175" y="290" text-anchor="middle" font-size="10" fill="#166534">as observable pattern</text>
+  <text x="175" y="320" text-anchor="middle" font-size="12" fill="#166534">Overall clinical efficacy</text>
+  <text x="175" y="340" text-anchor="middle" font-size="10" fill="#166534">of psychodynamic psychotherapy</text>
+  <text x="175" y="355" text-anchor="middle" font-size="10" fill="#166534">(Leichsenring et al., 2023)</text>
+
+  <rect x="325" y="90" width="250" height="360" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#92400E">Judgment suspended</text>
+  <text x="450" y="155" text-anchor="middle" font-size="12" fill="#78350F">Falsifiability problem</text>
+  <text x="450" y="175" text-anchor="middle" font-size="10" fill="#78350F">of the classic unconsc. (ch. 8)</text>
+  <text x="450" y="205" text-anchor="middle" font-size="12" fill="#78350F">Interpretive method</text>
+  <text x="450" y="225" text-anchor="middle" font-size="10" fill="#78350F">(dream, delusion): story</text>
+  <text x="450" y="240" text-anchor="middle" font-size="10" fill="#78350F">coherence, no independent testing</text>
+
+  <rect x="600" y="90" width="250" height="360" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="725" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#991B1B">Largely abandoned</text>
+  <text x="725" y="155" text-anchor="middle" font-size="12" fill="#7F1D1D">Dream symbolism</text>
+  <text x="725" y="175" text-anchor="middle" font-size="10" fill="#7F1D1D">w/ fixed meanings (ch. 9)</text>
+  <text x="725" y="205" text-anchor="middle" font-size="12" fill="#7F1D1D">Every dream as</text>
+  <text x="725" y="225" text-anchor="middle" font-size="10" fill="#7F1D1D">wish fulfillment,</text>
+  <text x="725" y="240" text-anchor="middle" font-size="10" fill="#7F1D1D">with no except.</text>
+  <text x="725" y="270" text-anchor="middle" font-size="12" fill="#7F1D1D">Death drive</text>
+  <text x="725" y="290" text-anchor="middle" font-size="10" fill="#7F1D1D">as a universal</text>
+  <text x="725" y="305" text-anchor="middle" font-size="10" fill="#7F1D1D">biol. law (ch. 11)</text>
+
+  <text x="450" y="480" text-anchor="middle" font-size="12" fill="#94A3B8">The theory's elements do not stand or fall together.</text>
+</svg>

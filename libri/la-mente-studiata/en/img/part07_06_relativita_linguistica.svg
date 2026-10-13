@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="460" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Linguistic relativity: the case of blue</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Russian grammatically separates goluboy (light blue) and siniy (dark blue)</text>
+
+  <rect x="100" y="110" width="300" height="140" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="250" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#1E3A8A">Russian speak.</text>
+  <text x="250" y="160" text-anchor="middle" font-size="11" fill="#1E40AF">two basic categories:</text>
+  <text x="250" y="180" text-anchor="middle" font-size="11" fill="#1E40AF">goluboy / siniy</text>
+  <text x="250" y="205" text-anchor="middle" font-size="11" fill="#1E40AF">faster discrimination</text>
+  <text x="250" y="223" text-anchor="middle" font-size="11" fill="#1E40AF">when colors cross the</text>
+  <text x="250" y="240" text-anchor="middle" font-size="11" fill="#1E40AF">boundary between categories</text>
+
+  <rect x="500" y="110" width="300" height="140" rx="8" fill="#F8FAFC" stroke="#475569" stroke-width="2"/>
+  <text x="650" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">English speakers</text>
+  <text x="650" y="160" text-anchor="middle" font-size="11" fill="#334155">a single category: "blue"</text>
+  <text x="650" y="185" text-anchor="middle" font-size="11" fill="#334155">no speed advantage</text>
+  <text x="650" y="205" text-anchor="middle" font-size="11" fill="#334155">at the same color boundary</text>
+
+  <rect x="230" y="290" width="440" height="90" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="450" y="315" text-anchor="middle" font-size="12" font-weight="bold" fill="#7F1D1D">The advantage vanishes with a concurrent verbal task</text>
+  <text x="450" y="335" text-anchor="middle" font-size="11" fill="#991B1B">a sign that the effect runs through an active linguistic</text>
+  <text x="450" y="353" text-anchor="middle" font-size="11" fill="#991B1B">representation, not a fixed perceptual difference</text>
+
+  <rect x="180" y="400" width="540" height="45" rx="6" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="428" text-anchor="middle" font-size="11" fill="#92400E">A real but small, task-specific effect, not linguistic determinism</text>
+</svg>

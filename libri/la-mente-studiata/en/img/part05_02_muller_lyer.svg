@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="420" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">The Müller-Lyer illusion</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Two segments of identical physical length perceived as different</text>
+
+  <!-- Line 1: outward arrows (looks longer) -->
+  <g stroke="#0284C7" stroke-width="3">
+    <line x1="150" y1="160" x2="450" y2="160"/>
+    <line x1="150" y1="160" x2="175" y2="140"/>
+    <line x1="150" y1="160" x2="175" y2="180"/>
+    <line x1="450" y1="160" x2="425" y2="140"/>
+    <line x1="450" y1="160" x2="425" y2="180"/>
+  </g>
+  <text x="300" y="200" text-anchor="middle" font-size="12" fill="#075985">Fins pointing outward → looks longer</text>
+
+  <!-- Line 2: inward arrows (looks shorter), same physical length -->
+  <g stroke="#DC2626" stroke-width="3">
+    <line x1="150" y1="290" x2="450" y2="290"/>
+    <line x1="150" y1="290" x2="175" y2="270"/>
+    <line x1="150" y1="290" x2="175" y2="310"/>
+    <line x1="450" y1="290" x2="425" y2="270"/>
+    <line x1="450" y1="290" x2="425" y2="310"/>
+  </g>
+  <text x="300" y="330" text-anchor="middle" font-size="12" fill="#7F1D1D">Fins pointing inward → looks shorter</text>
+
+  <text x="600" y="225" text-anchor="middle" font-size="11" fill="#334155">Both horizontal segments</text>
+  <text x="600" y="240" text-anchor="middle" font-size="11" fill="#334155">are exactly the same length</text>
+
+  <text x="450" y="390" text-anchor="middle" font-size="12" fill="#334155">The fins mimic architectural depth cues (inside/outside corner of a wall), triggering an inappropriate size correction.</text>
+</svg>
