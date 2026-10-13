@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="900" height="470" fill="#FFFFFF"/>
+<text x="450.0" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Continuité sans connexion directe</text>
+<text x="450.0" y="60" text-anchor="middle" font-size="13" fill="#64748B">Une chaîne de chevauchements : les extrémités n'ont rien en commun, les liens si</text><circle cx="195" cy="230" r="96" fill="#0284C7" opacity="0.28" stroke="#0284C7" stroke-width="3"/>
+<text x="195" y="236" text-anchor="middle" font-size="14" fill="#334155" font-weight="bold">à 7 ans</text>
+<circle cx="365" cy="230" r="96" fill="#059669" opacity="0.28" stroke="#059669" stroke-width="3"/>
+<text x="365" y="236" text-anchor="middle" font-size="14" fill="#334155" font-weight="bold">à 25 ans</text>
+<circle cx="535" cy="230" r="96" fill="#D97706" opacity="0.28" stroke="#D97706" stroke-width="3"/>
+<text x="535" y="236" text-anchor="middle" font-size="14" fill="#334155" font-weight="bold">à 45 ans</text>
+<circle cx="705" cy="230" r="96" fill="#7C3AED" opacity="0.28" stroke="#7C3AED" stroke-width="3"/>
+<text x="705" y="236" text-anchor="middle" font-size="14" fill="#334155" font-weight="bold">à 70 ans</text>
+<text x="280" y="104" text-anchor="middle" font-size="11" fill="#64748B">souvenirs, goûts,</text>
+<text x="280" y="118" text-anchor="middle" font-size="11" fill="#64748B">intentions en commun</text>
+<text x="450" y="104" text-anchor="middle" font-size="11" fill="#64748B">souvenirs, projets,</text>
+<text x="450" y="118" text-anchor="middle" font-size="11" fill="#64748B">caractère en commun</text>
+<text x="620" y="104" text-anchor="middle" font-size="11" fill="#64748B">souvenirs, habitudes,</text>
+<text x="620" y="118" text-anchor="middle" font-size="11" fill="#64748B">relations en commun</text>
+<path d="M195 345 Q450 420 705 345" fill="none" stroke="#DC2626" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="450" y="408" text-anchor="middle" font-size="12" fill="#DC2626" font-weight="bold">entre l'extrémité initiale et finale : aucune connexion directe</text>
+<text x="450.0" y="452" text-anchor="middle" font-size="12" fill="#64748B">C'est l'idée de Parfit : l'identité dans le temps comme chaîne de connexions psychologiques qui se chevauchent.</text>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="510" viewBox="0 0 900 510" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="900" height="510" fill="#FFFFFF"/>
+<text x="450.0" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">L'expérience des lignes</text>
+<text x="450.0" y="60" text-anchor="middle" font-size="13" fill="#64748B">Réponses erronées par condition et participants qui se conforment au moins une fois</text><line x1="90" y1="400" x2="510" y2="400" stroke="#334155" stroke-width="2"/><line x1="90" y1="400" x2="90" y2="150" stroke="#334155" stroke-width="2"/>
+<text x="80" y="404.0" text-anchor="end" font-size="11" fill="#334155">0</text><line x1="90" y1="400.0" x2="510" y2="400.0" stroke="#E2E8F0"/>
+<text x="80" y="320.6666666666667" text-anchor="end" font-size="11" fill="#334155">20</text><line x1="90" y1="316.6666666666667" x2="510" y2="316.6666666666667" stroke="#E2E8F0"/>
+<text x="80" y="237.33333333333334" text-anchor="end" font-size="11" fill="#334155">40</text><line x1="90" y1="233.33333333333334" x2="510" y2="233.33333333333334" stroke="#E2E8F0"/>
+<text x="80" y="154.0" text-anchor="end" font-size="11" fill="#334155">60</text><line x1="90" y1="150.0" x2="510" y2="150.0" stroke="#E2E8F0"/>
+<rect x="121.5" y="397.0833333333333" width="77.0" height="2.9166666666666665" fill="#64748B"/><text x="160.0" y="389.0833333333333" text-anchor="middle" font-size="14" font-weight="bold" fill="#334155">moins de 1 %</text>
+<text x="160.0" y="420" text-anchor="middle" font-size="12" fill="#334155">Contrôle</text>
+<text x="160.0" y="435" text-anchor="middle" font-size="12" fill="#334155">(seuls)</text>
+<rect x="261.5" y="250.0" width="77.0" height="150.0" fill="#DC2626"/><text x="300.0" y="242.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#334155">36%</text>
+<text x="300.0" y="420" text-anchor="middle" font-size="12" fill="#334155">Majorité</text>
+<text x="300.0" y="435" text-anchor="middle" font-size="12" fill="#334155">unanime</text>
+<rect x="401.5" y="379.1666666666667" width="77.0" height="20.833333333333332" fill="#059669"/><text x="440.0" y="371.1666666666667" text-anchor="middle" font-size="14" font-weight="bold" fill="#334155">5%</text>
+<text x="440.0" y="420" text-anchor="middle" font-size="12" fill="#334155">Un allié</text>
+<text x="440.0" y="435" text-anchor="middle" font-size="12" fill="#334155">désapprouve</text>
+<text x="690" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#334155">Au moins un alignement</text><text x="690" y="148" text-anchor="middle" font-size="12" fill="#64748B">dans les 12 essais critiques</text>
+<rect x="640" y="170" width="100" height="170.2" fill="#DC2626"/><rect x="640" y="340.2" width="100" height="59.800000000000004" fill="#059669"/><text x="690" y="260.1" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">74%</text><text x="690" y="375.09999999999997" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">26%</text><text x="760" y="260" font-size="12" fill="#334155">au moins une fois</text><text x="760" y="372" font-size="12" fill="#334155">jamais</text>
+<text x="450" y="462" text-anchor="middle" font-size="12" fill="#334155">Barres à gauche : % de réponses erronées (valeurs approximatives ; 18 essais, 12 critiques).</text><text x="450" y="484" text-anchor="middle" font-size="11" fill="#64748B">Asch (1951 et variantes) ; 50 participants expérimentaux dans la version de 1951.</text>
+</svg>

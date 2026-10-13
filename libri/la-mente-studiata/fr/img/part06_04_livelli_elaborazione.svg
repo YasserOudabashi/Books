@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Profondeur de traitement et rétention</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Même temps d'étude, tâches différentes, rappel très différent</text>
+
+  <!-- three bars -->
+  <rect x="140" y="360" width="120" height="40" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+  <text x="200" y="386" text-anchor="middle" font-size="11" fill="#7F1D1D">~15%</text>
+  <text x="200" y="415" text-anchor="middle" font-size="11" fill="#334155">Superficiel</text>
+  <text x="200" y="431" text-anchor="middle" font-size="9" fill="#64748B">(majuscule/minuscule)</text>
+
+  <rect x="390" y="300" width="120" height="100" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="326" text-anchor="middle" font-size="11" fill="#92400E">~35%</text>
+  <text x="450" y="415" text-anchor="middle" font-size="11" fill="#334155">Phonologique</text>
+  <text x="450" y="431" text-anchor="middle" font-size="9" fill="#64748B">(rime avec... ?)</text>
+
+  <rect x="640" y="130" width="120" height="270" fill="#D1FAE5" stroke="#059669" stroke-width="2"/>
+  <text x="700" y="156" text-anchor="middle" font-size="11" fill="#065F46">~70%</text>
+  <text x="700" y="415" text-anchor="middle" font-size="11" fill="#334155">Sémantique</text>
+  <text x="700" y="431" text-anchor="middle" font-size="9" fill="#64748B">(complète la phrase ?)</text>
+
+  <line x1="100" y1="400" x2="820" y2="400" stroke="#334155" stroke-width="2"/>
+  <text x="100" y="120" text-anchor="start" font-size="11" fill="#64748B">% reconnu au test surprise</text>
+
+  <rect x="100" y="450" width="700" height="0" fill="none"/>
+</svg>

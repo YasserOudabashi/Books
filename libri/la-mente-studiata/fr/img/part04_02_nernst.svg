@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Le potentiel d'équilibre du potassium</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Deux forces opposées qui s'équilibrent à environ -89 mV</text>
+
+  <!-- cell membrane -->
+  <rect x="300" y="110" width="300" height="260" rx="10" fill="#F8FAFC" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="100" text-anchor="middle" font-size="13" fill="#334155">Membrane cellulaire</text>
+
+  <text x="200" y="150" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Extérieur</text>
+  <text x="200" y="175" text-anchor="middle" font-size="12" fill="#475569">[K⁺] ≈ 5 mM</text>
+  <text x="200" y="195" text-anchor="middle" font-size="11" fill="#94A3B8">(faible concentration)</text>
+
+  <text x="700" y="150" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Intérieur</text>
+  <text x="700" y="175" text-anchor="middle" font-size="12" fill="#475569">[K⁺] ≈ 140 mM</text>
+  <text x="700" y="195" text-anchor="middle" font-size="11" fill="#94A3B8">(forte concentration)</text>
+  <text x="700" y="215" text-anchor="middle" font-size="11" fill="#94A3B8">intérieur chargé négativement</text>
+
+  <!-- diffusion arrow out -->
+  <line x1="620" y1="250" x2="740" y2="250" stroke="#059669" stroke-width="3" marker-end="url(#a5)"/>
+  <text x="680" y="240" text-anchor="middle" font-size="11" fill="#059669">diffusion (sort)</text>
+
+  <!-- electrostatic arrow in -->
+  <line x1="740" y1="290" x2="620" y2="290" stroke="#DC2626" stroke-width="3" marker-end="url(#a6)"/>
+  <text x="680" y="310" text-anchor="middle" font-size="11" fill="#DC2626">attraction électrostatique (rappelle)</text>
+
+  <text x="450" y="410" text-anchor="middle" font-size="13" fill="#334155">Quand les deux forces s'équilibrent exactement, on atteint le potentiel d'équilibre :</text>
+  <text x="450" y="435" text-anchor="middle" font-size="14" font-weight="bold" fill="#0284C7">E_K = 61,5 mV · log₁₀(5/140) ≈ −89 mV</text>
+
+  <defs>
+    <marker id="a5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#059669"/>
+    </marker>
+    <marker id="a6" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#DC2626"/>
+    </marker>
+  </defs>
+</svg>

@@ -170,33 +170,48 @@ Il push fa il deploy. Il browser può tenere in cache css/js per un'ora e le
 immagini per 30 giorni (vedi `libri/_headers`): se vedi ancora la versione
 vecchia, ricarica con `Ctrl+Shift+R`.
 
-## Versione inglese (*The Studied Mind*)
+## Traduzioni (inglese e francese)
 
-`la-mente-studiata` ha anche la traduzione inglese completa (13 parti, appendici e
-81 diagrammi), in `libri/la-mente-studiata/en/`:
-**https://books-alr.pages.dev/la-mente-studiata/en/**
+`la-mente-studiata` esiste in tre lingue, ognuna completa (13 parti, appendici e
+81 diagrammi):
 
-- Il pulsante **EN / IT** in alto (accanto ad **Aa**) porta alla stessa pagina
-  nell'altra lingua, allo stesso capitolo: gli `id` dei titoli sono identici nelle
-  due versioni. La scelta viene ricordata: chi ha scelto l'inglese, aprendo la
-  copertina italiana, viene portato a quella inglese.
-- Le pagine inglesi usano gli stessi `style.css`, `app.js` e caratteri di quelle
-  italiane (`../style.css`): una modifica allo stile vale per entrambe.
-- I diagrammi tradotti sono in `en/img/` (SVG + PNG con lo stesso nome).
-- Nel glossario (appendice D) le voci sono in ordine alfabetico inglese, con il
-  termine italiano tra parentesi.
+| Lingua | Cartella | Titolo | Indirizzo |
+|--------|----------|--------|-----------|
+| Italiano | `libri/la-mente-studiata/` | La mente studiata | https://books-alr.pages.dev/la-mente-studiata/ |
+| Inglese | `…/en/` | The Studied Mind | https://books-alr.pages.dev/la-mente-studiata/en/ |
+| Francese | `…/fr/` | L'Esprit étudié | https://books-alr.pages.dev/la-mente-studiata/fr/ |
 
-**Controllo della traduzione** — `scripts/check-en.py` confronta ogni pagina
-italiana con quella inglese e segnala: titoli, paragrafi, riquadri, tabelle o
+- Il selettore **IT | EN | FR** in alto (accanto ad **Aa**) porta alla stessa pagina
+  nell'altra lingua, allo stesso capitolo: gli `id` dei titoli sono identici in tutte
+  le versioni. La scelta viene ricordata: chi ha scelto una lingua, aprendo la
+  copertina italiana, viene portato alla copertina in quella lingua.
+- Le pagine tradotte usano gli stessi `style.css`, `app.js` e caratteri di quelle
+  italiane (`../style.css`): una modifica allo stile vale per tutte.
+- I diagrammi tradotti sono in `en/img/` e `fr/img/` (SVG + PNG con lo stesso nome).
+- Nel glossario (appendice D) le voci sono in ordine alfabetico della lingua.
+- Regole di scrittura: inglese con punto decimale e virgola per le migliaia
+  (0.46, 14,000); francese con virgola decimale e spazio non separabile per le
+  migliaia (0,46, 14 000), virgolette « » e spazio non separabile prima di `: ; ? ! %`.
+
+**Controllo delle traduzioni** — `scripts/check-lang.py` confronta ogni pagina
+italiana con quella tradotta e segnala: titoli, paragrafi, riquadri, tabelle o
 figure in numero diverso; id, link o immagini diversi; riquadri in ordine diverso;
-numeri dell'italiano assenti nell'inglese (0,46 → 0.46); parole italiane rimaste.
+numeri dell'italiano assenti nella traduzione (nel formato della lingua); parole
+italiane rimaste (e, per il francese, frasi rimaste in inglese).
 
 ```bash
-python3 scripts/check-en.py          # deve finire con "15/15 pagine senza problemi."
+python3 scripts/check-lang.py          # tutte le lingue: "15/15 pagine senza problemi." per ognuna
+python3 scripts/check-lang.py fr       # solo il francese
 ```
 
 Se si modifica il testo italiano di un capitolo, va aggiornata a mano anche la
-pagina inglese corrispondente, poi si rilancia il controllo.
+pagina di ogni traduzione, poi si rilancia il controllo.
+
+**Aggiungere una lingua** — si crea la cartella con il codice (es. `de/`) con le
+stesse pagine, si aggiunge la lingua in `scripts/set-lang-switch.py` e in
+`scripts/check-lang.py` (etichette dei riquadri, formato dei numeri), poi si
+rilancia `python3 scripts/set-lang-switch.py` per rimettere il selettore in tutte
+le pagine.
 
 ## Diagnostica
 

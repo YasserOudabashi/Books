@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">L'expérience du « cerveau divisé »</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Un stimulus montré à un seul champ visuel n'atteint qu'un hémisphère</text>
+
+  <!-- brain outline split -->
+  <ellipse cx="450" cy="220" rx="220" ry="130" fill="#F8FAFC" stroke="#334155" stroke-width="2"/>
+  <line x1="450" y1="95" x2="450" y2="345" stroke="#DC2626" stroke-width="3" stroke-dasharray="6,4"/>
+  <text x="468" y="225" text-anchor="middle" font-size="10" fill="#DC2626" transform="rotate(-90 468 225)">corps calleux sectionné</text>
+
+  <text x="330" y="180" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E3A8A">Hémisphère gauche</text>
+  <text x="330" y="200" text-anchor="middle" font-size="11" fill="#1E40AF">(verbal)</text>
+  <text x="330" y="230" text-anchor="middle" font-size="12" fill="#334155">reçoit : champ visuel droit</text>
+
+  <text x="570" y="180" text-anchor="middle" font-size="14" font-weight="bold" fill="#14532D">Hémisphère droit</text>
+  <text x="570" y="200" text-anchor="middle" font-size="11" fill="#166534">(non verbal)</text>
+  <text x="570" y="230" text-anchor="middle" font-size="12" fill="#334155">reçoit : champ visuel gauche</text>
+
+  <!-- outcomes -->
+  <rect x="180" y="270" width="300" height="90" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="330" y="295" text-anchor="middle" font-size="12" font-weight="bold" fill="#1E3A8A">Peut nommer à voix haute</text>
+  <text x="330" y="315" text-anchor="middle" font-size="11" fill="#1E40AF">l'objet vu</text>
+  <text x="330" y="335" text-anchor="middle" font-size="11" fill="#1E40AF">(« c'est une pomme »)</text>
+
+  <rect x="480" y="270" width="300" height="90" rx="8" fill="#F0FDF4" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="630" y="295" text-anchor="middle" font-size="12" font-weight="bold" fill="#14532D">Nie avoir rien vu,</text>
+  <text x="630" y="315" text-anchor="middle" font-size="11" fill="#166534">mais la main gauche choisit</text>
+  <text x="630" y="335" text-anchor="middle" font-size="11" fill="#166534">correctement l'objet à tâtons</text>
+
+  <text x="450" y="410" text-anchor="middle" font-size="12" fill="#334155">Le compte rendu verbal ne reflète que ce à quoi l'hémisphère du langage a accès —</text>
+  <text x="450" y="430" text-anchor="middle" font-size="12" fill="#334155">ce n'est pas une fenêtre neutre sur « tout ce que le cerveau sait ».</text>
+</svg>

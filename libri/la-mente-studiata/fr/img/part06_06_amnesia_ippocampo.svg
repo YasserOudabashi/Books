@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Amnésie par lésion du lobe temporal médian</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Dissociation entre mémoire déclarative et mémoire procédurale chez la même personne</text>
+
+  <!-- brain schematic -->
+  <text x="230" y="105" text-anchor="middle" font-size="11" fill="#64748B">représentation schématique</text>
+  <ellipse cx="230" cy="240" rx="150" ry="90" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+  <ellipse cx="230" cy="245" rx="70" ry="30" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+  <text x="230" y="250" text-anchor="middle" font-size="11" font-weight="bold" fill="#7F1D1D">lobe temporal</text>
+  <text x="230" y="264" text-anchor="middle" font-size="10" fill="#7F1D1D">médian (retiré)</text>
+
+  <!-- task: mirror star drawing -->
+  <rect x="500" y="100" width="330" height="130" rx="8" fill="#F0F9FF" stroke="#0284C7" stroke-width="2"/>
+  <text x="665" y="125" text-anchor="middle" font-size="12" font-weight="bold" fill="#075985">Tâche : dessiner une étoile</text>
+  <text x="665" y="143" text-anchor="middle" font-size="11" fill="#075985">en miroir, séance après séance</text>
+  <text x="665" y="170" text-anchor="middle" font-size="11" fill="#334155">Performance motrice : s'améliore</text>
+  <text x="665" y="188" text-anchor="middle" font-size="11" fill="#334155">progressivement, comme chez qui n'a</text>
+  <text x="665" y="206" text-anchor="middle" font-size="11" fill="#334155">pas de lésion cérébrale</text>
+
+  <rect x="500" y="250" width="330" height="110" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="665" y="275" text-anchor="middle" font-size="12" font-weight="bold" fill="#7F1D1D">Souvenir explicite de la tâche</text>
+  <text x="665" y="298" text-anchor="middle" font-size="11" fill="#991B1B">à chaque séance : « je ne l'ai jamais</text>
+  <text x="665" y="316" text-anchor="middle" font-size="11" fill="#991B1B">fait avant » — aucune trace</text>
+  <text x="665" y="334" text-anchor="middle" font-size="11" fill="#991B1B">consciente des séances précédentes</text>
+
+  <rect x="60" y="370" width="780" height="80" rx="8" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <text x="450" y="395" text-anchor="middle" font-size="12" font-weight="bold" fill="#065F46">Double dissociation chez la même personne, avec la même lésion cérébrale :</text>
+  <text x="450" y="415" text-anchor="middle" font-size="11" fill="#065F46">mémoire procédurale intacte (le dessin s'améliore) et mémoire déclarative atteinte</text>
+  <text x="450" y="433" text-anchor="middle" font-size="11" fill="#065F46">(aucun souvenir explicite d'avoir fait la tâche) — preuve directe de systèmes séparés</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="500" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Négligence du taux de base</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">10 000 personnes, maladie à 1 %, test de sensibilité 90 % et faux positifs 9 %</text>
+
+  <rect x="330" y="100" width="240" height="50" rx="8" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="130" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">10 000 personnes</text>
+
+  <path d="M 400,150 L 250,210" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrb)"/>
+  <path d="M 500,150 L 650,210" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrb)"/>
+  <defs><marker id="arrb" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#94A3B8"/></marker></defs>
+
+  <rect x="100" y="215" width="300" height="60" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="250" y="240" text-anchor="middle" font-size="12" font-weight="bold" fill="#7F1D1D">100 malades (1 %)</text>
+  <text x="250" y="260" text-anchor="middle" font-size="11" fill="#991B1B">90 positifs (sensibilité 90 %)</text>
+
+  <rect x="500" y="215" width="300" height="60" rx="8" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <text x="650" y="240" text-anchor="middle" font-size="12" font-weight="bold" fill="#065F46">9 900 sains (99 %)</text>
+  <text x="650" y="260" text-anchor="middle" font-size="11" fill="#047857">891 faux positifs (9 %)</text>
+
+  <path d="M 250,275 L 400,330" stroke="#DC2626" stroke-width="2" marker-end="url(#arrb)"/>
+  <path d="M 650,275 L 500,330" stroke="#059669" stroke-width="2" marker-end="url(#arrb)"/>
+
+  <rect x="330" y="335" width="240" height="60" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="360" text-anchor="middle" font-size="12" font-weight="bold" fill="#92400E">981 positifs au total</text>
+  <text x="450" y="380" text-anchor="middle" font-size="11" fill="#92400E">(90 vrais + 891 faux)</text>
+
+  <rect x="230" y="415" width="440" height="60" rx="8" fill="#F0F9FF" stroke="#0284C7" stroke-width="2"/>
+  <text x="450" y="440" text-anchor="middle" font-size="13" font-weight="bold" fill="#075985">P(malade | positif) = 90 / 981 ≈ 9 %</text>
+  <text x="450" y="460" text-anchor="middle" font-size="11" fill="#075985">pas les 90 % que suggère l'intuition</text>
+</svg>

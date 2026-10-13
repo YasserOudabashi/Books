@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="900" height="500" fill="#FFFFFF"/>
+<text x="450.0" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Les deux champs de graines</text>
+<text x="450.0" y="60" text-anchor="middle" font-size="13" fill="#64748B">Héritabilité élevée dans chaque champ, différence entre les champs due au sol</text><rect x="70" y="170" width="340" height="220" rx="6" fill="#F8FAFC" stroke="#334155" stroke-width="2"/>
+<text x="240" y="152" text-anchor="middle" font-size="15" font-weight="bold" fill="#334155">Sol riche</text>
+<line x1="105" y1="380" x2="105" y2="230" stroke="#059669" stroke-width="7"/><circle cx="105" cy="230" r="9" fill="#059669"/>
+<line x1="159" y1="380" x2="159" y2="250" stroke="#059669" stroke-width="7"/><circle cx="159" cy="250" r="9" fill="#059669"/>
+<line x1="213" y1="380" x2="213" y2="210" stroke="#059669" stroke-width="7"/><circle cx="213" cy="210" r="9" fill="#059669"/>
+<line x1="267" y1="380" x2="267" y2="265" stroke="#059669" stroke-width="7"/><circle cx="267" cy="265" r="9" fill="#059669"/>
+<line x1="321" y1="380" x2="321" y2="240" stroke="#059669" stroke-width="7"/><circle cx="321" cy="240" r="9" fill="#059669"/>
+<line x1="375" y1="380" x2="375" y2="220" stroke="#059669" stroke-width="7"/><circle cx="375" cy="220" r="9" fill="#059669"/>
+<text x="240" y="420" text-anchor="middle" font-size="12" fill="#334155">Hauteur moyenne élevée ; les plantes diffèrent par les graines</text>
+<rect x="490" y="170" width="340" height="220" rx="6" fill="#F8FAFC" stroke="#334155" stroke-width="2"/>
+<text x="660" y="152" text-anchor="middle" font-size="15" font-weight="bold" fill="#334155">Sol pauvre</text>
+<line x1="525" y1="380" x2="525" y2="295" stroke="#D97706" stroke-width="7"/><circle cx="525" cy="295" r="9" fill="#D97706"/>
+<line x1="579" y1="380" x2="579" y2="315" stroke="#D97706" stroke-width="7"/><circle cx="579" cy="315" r="9" fill="#D97706"/>
+<line x1="633" y1="380" x2="633" y2="275" stroke="#D97706" stroke-width="7"/><circle cx="633" cy="275" r="9" fill="#D97706"/>
+<line x1="687" y1="380" x2="687" y2="330" stroke="#D97706" stroke-width="7"/><circle cx="687" cy="330" r="9" fill="#D97706"/>
+<line x1="741" y1="380" x2="741" y2="305" stroke="#D97706" stroke-width="7"/><circle cx="741" cy="305" r="9" fill="#D97706"/>
+<line x1="795" y1="380" x2="795" y2="285" stroke="#D97706" stroke-width="7"/><circle cx="795" cy="285" r="9" fill="#D97706"/>
+<text x="660" y="420" text-anchor="middle" font-size="12" fill="#334155">Hauteur moyenne faible ; les plantes diffèrent par les graines</text>
+<text x="450" y="458" text-anchor="middle" font-size="12" fill="#334155">Même variété mixte de graines dans les deux champs : la différence moyenne entre les champs ne dépend pas des graines.</text><text x="450" y="478" text-anchor="middle" font-size="11" fill="#64748B">Schéma conceptuel illustratif.</text>
+</svg>

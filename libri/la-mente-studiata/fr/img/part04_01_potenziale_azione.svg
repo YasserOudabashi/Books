@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="500" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Les phases du potentiel d'action</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Tension de membrane dans le temps</text>
+
+  <!-- axes -->
+  <line x1="100" y1="420" x2="800" y2="420" stroke="#334155" stroke-width="1.5"/>
+  <line x1="100" y1="80" x2="100" y2="420" stroke="#334155" stroke-width="1.5"/>
+  <text x="450" y="460" text-anchor="middle" font-size="13" fill="#334155">Temps (millisecondes)</text>
+  <text x="55" y="250" text-anchor="middle" font-size="13" fill="#334155" transform="rotate(-90 55 250)">Tension (mV)</text>
+
+  <!-- reference lines -->
+  <line x1="100" y1="330" x2="800" y2="330" stroke="#94A3B8" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="95" y="334" text-anchor="end" font-size="11" fill="#64748B">-70 (repos)</text>
+  <line x1="100" y1="300" x2="800" y2="300" stroke="#D97706" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="95" y="304" text-anchor="end" font-size="11" fill="#92400E">-55 (seuil)</text>
+  <line x1="100" y1="110" x2="800" y2="110" stroke="#94A3B8" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="95" y="114" text-anchor="end" font-size="11" fill="#64748B">+40</text>
+
+  <!-- action potential curve -->
+  <path d="M 100,330 L 300,330 C 340,330 350,300 370,290 C 400,270 410,150 430,110 C 450,90 460,100 480,150 C 500,200 510,340 530,360 C 550,375 570,335 600,330 L 800,330"
+        fill="none" stroke="#DC2626" stroke-width="3"/>
+
+  <!-- phase labels -->
+  <text x="390" y="200" text-anchor="middle" font-size="12" fill="#DC2626" font-weight="bold">Montée (Na⁺ entre)</text>
+  <text x="500" y="230" text-anchor="middle" font-size="12" fill="#0284C7" font-weight="bold">Descente (K⁺ sort)</text>
+  <text x="560" y="390" text-anchor="middle" font-size="11" fill="#334155">Hyperpolarisation /</text>
+  <text x="560" y="405" text-anchor="middle" font-size="11" fill="#334155">période réfractaire</text>
+  <text x="450" y="80" text-anchor="middle" font-size="12" fill="#334155">Pic (~+40 mV)</text>
+
+  <text x="450" y="490" text-anchor="middle" font-size="12" fill="#94A3B8">Au-dessus du seuil, l'événement se déroule toujours de la même façon : tout-ou-rien.</text>
+</svg>

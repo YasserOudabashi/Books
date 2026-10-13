@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Les quatre classifications de l'attachement</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Distribution dans la situation étrange (pourcentage de dyades)</text>
+
+  <line x1="120" y1="380" x2="820" y2="380" stroke="#334155" stroke-width="2"/>
+  <line x1="120" y1="380" x2="120" y2="104" stroke="#334155" stroke-width="2"/>
+  <text x="108" y="384" text-anchor="end" font-size="11" fill="#334155">0</text>
+  <text x="108" y="292" text-anchor="end" font-size="11" fill="#334155">20</text>
+  <text x="108" y="200" text-anchor="end" font-size="11" fill="#334155">40</text>
+  <text x="108" y="108" text-anchor="end" font-size="11" fill="#334155">60</text>
+  <text x="62" y="245" text-anchor="middle" font-size="12" fill="#334155" transform="rotate(-90 62 245)">% de dyades</text>
+
+  <rect x="170" y="142.6" width="100" height="237.4" fill="#059669"/>
+  <rect x="340" y="312.4" width="100" height="67.6" fill="#2563EB"/>
+  <rect x="510" y="333.1" width="100" height="46.9" fill="#D97706"/>
+  <rect x="680" y="271.9" width="100" height="108.1" fill="#7C3AED"/>
+
+  <text x="220" y="134" text-anchor="middle" font-size="14" font-weight="bold" fill="#065F46">51,6%</text>
+  <text x="390" y="304" text-anchor="middle" font-size="14" font-weight="bold" fill="#1D4ED8">14,7%</text>
+  <text x="560" y="325" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400E">10,2%</text>
+  <text x="730" y="263" text-anchor="middle" font-size="14" font-weight="bold" fill="#5B21B6">23,5%</text>
+
+  <text x="220" y="402" text-anchor="middle" font-size="12" fill="#334155">sécures</text>
+  <text x="390" y="402" text-anchor="middle" font-size="12" fill="#334155">évitants</text>
+  <text x="560" y="402" text-anchor="middle" font-size="12" fill="#334155">résistants</text>
+  <text x="560" y="418" text-anchor="middle" font-size="12" fill="#334155">(ambivalents)</text>
+  <text x="730" y="402" text-anchor="middle" font-size="12" fill="#334155">désorganisés</text>
+
+  <text x="450" y="455" text-anchor="middle" font-size="11" fill="#64748B">Fearon et collègues, 2023 : plus de 285 études, 20 720 dyades parent-enfant.</text>
+</svg>

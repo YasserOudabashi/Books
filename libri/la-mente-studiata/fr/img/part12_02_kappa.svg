@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect width="900" height="420" fill="#FFFFFF"/>
+<text x="450.0" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Fidélité des diagnostics : le kappa</text>
+<text x="450.0" y="60" text-anchor="middle" font-size="13" fill="#64748B">Essai de terrain du DSM-5 (Regier et collègues, 2013), valeurs approximatives</text><rect x="290" y="130" width="108.0" height="170" fill="#FEE2E2"/>
+<text x="344.0" y="120" text-anchor="middle" font-size="11" fill="#64748B">faible</text>
+<rect x="398.0" y="130" width="108.0" height="170" fill="#FEF3C7"/>
+<text x="452.0" y="120" text-anchor="middle" font-size="11" fill="#64748B">modeste</text>
+<rect x="506.0" y="130" width="108.0" height="170" fill="#FEF9C3"/>
+<text x="560.0" y="120" text-anchor="middle" font-size="11" fill="#64748B">modéré</text>
+<rect x="614.0" y="130" width="108.0" height="170" fill="#DCFCE7"/>
+<text x="668.0" y="120" text-anchor="middle" font-size="11" fill="#64748B">bon</text>
+<rect x="722.0" y="130" width="108.0" height="170" fill="#BBF7D0"/>
+<text x="776.0" y="120" text-anchor="middle" font-size="11" fill="#64748B">très bon</text>
+<text x="276" y="171" text-anchor="end" font-size="13" fill="#334155">Trouble d'anxiété généralisée</text>
+<rect x="290" y="152" width="108.0" height="28" fill="#D97706"/>
+<text x="406.0" y="171" text-anchor="start" font-size="13" fill="#334155" font-weight="bold">environ 0,2</text>
+<text x="276" y="219" text-anchor="end" font-size="13" fill="#334155">Dépression majeure</text>
+<rect x="290" y="200" width="162.0" height="28" fill="#D97706"/>
+<text x="460.0" y="219" text-anchor="start" font-size="13" fill="#334155" font-weight="bold">environ 0,3</text>
+<text x="276" y="267" text-anchor="end" font-size="13" fill="#334155">Trouble du spectre de l'autisme</text>
+<rect x="290" y="248" width="378.0" height="28" fill="#059669"/>
+<text x="676.0" y="267" text-anchor="start" font-size="13" fill="#334155" font-weight="bold">environ 0,7</text>
+<line x1="290" y1="130" x2="290" y2="300" stroke="#334155" stroke-width="2"/><line x1="290" y1="300" x2="830" y2="300" stroke="#334155" stroke-width="2"/>
+<text x="290" y="318" text-anchor="middle" font-size="11" fill="#334155">0</text>
+<text x="398.0" y="318" text-anchor="middle" font-size="11" fill="#334155">0,2</text>
+<text x="506.0" y="318" text-anchor="middle" font-size="11" fill="#334155">0,4</text>
+<text x="614.0" y="318" text-anchor="middle" font-size="11" fill="#334155">0,6</text>
+<text x="722.0" y="318" text-anchor="middle" font-size="11" fill="#334155">0,8</text>
+<text x="830.0" y="318" text-anchor="middle" font-size="11" fill="#334155">1,0</text>
+<text x="450.0" y="348" text-anchor="middle" font-size="12" fill="#334155">Les tranches sont une convention de lecture, non une loi.</text>
+<text x="450.0" y="370" text-anchor="middle" font-size="11" fill="#64748B">Le kappa dépend aussi de la fréquence du trouble : à faible prévalence, à accord égal, il diminue.</text>
+
+</svg>
