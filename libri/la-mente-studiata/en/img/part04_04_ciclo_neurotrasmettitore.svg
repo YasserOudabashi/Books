@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="500" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">The neurotransmitter life cycle</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Each step is a possible drug target</text>
+
+  <!-- 5 stage circle -->
+  <g font-size="12">
+    <circle cx="200" cy="150" r="55" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+    <text x="200" y="145" text-anchor="middle" font-weight="bold" fill="#3730A3">1. Synth.</text>
+    <text x="200" y="163" text-anchor="middle" fill="#3730A3" font-size="10">from dietary precursors</text>
+
+    <circle cx="450" cy="145" r="55" fill="#F0F9FF" stroke="#0284C7" stroke-width="2"/>
+    <text x="450" y="140" text-anchor="middle" font-weight="bold" fill="#075985">2. Storage</text>
+    <text x="450" y="158" text-anchor="middle" fill="#075985" font-size="10">in vesicles</text>
+
+    <circle cx="700" cy="150" r="55" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+    <text x="700" y="145" text-anchor="middle" font-weight="bold" fill="#065F46">3. Release</text>
+    <text x="700" y="163" text-anchor="middle" fill="#065F46" font-size="10">Ca²⁺-dependent</text>
+
+    <circle cx="700" cy="300" r="55" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+    <text x="700" y="295" text-anchor="middle" font-weight="bold" fill="#92400E">4. Binds</text>
+    <text x="700" y="313" text-anchor="middle" fill="#92400E" font-size="10">to a receptor</text>
+
+    <circle cx="450" cy="350" r="55" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+    <text x="450" y="345" text-anchor="middle" font-weight="bold" fill="#7F1D1D">5. Inactivation</text>
+    <text x="450" y="363" text-anchor="middle" fill="#7F1D1D" font-size="10">reuptake or degradation</text>
+
+    <circle cx="200" cy="300" r="55" fill="#FDF4FF" stroke="#A21CAF" stroke-width="2"/>
+    <text x="200" y="295" text-anchor="middle" font-weight="bold" fill="#701A75">Drugs</text>
+    <text x="200" y="313" text-anchor="middle" fill="#701A75" font-size="10">act here</text>
+  </g>
+
+  <!-- cycle arrows -->
+  <path d="M 250,120 A 300,300 0 0,1 397,150" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#a9)"/>
+  <path d="M 503,150 A 300,300 0 0,1 655,135" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#a9)"/>
+  <path d="M 700,205 A 300,300 0 0,1 700,245" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#a9)"/>
+  <path d="M 655,335 A 300,300 0 0,1 505,355" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#a9)"/>
+  <path d="M 400,345 A 300,300 0 0,1 250,320" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#a9)"/>
+
+  <text x="450" y="440" text-anchor="middle" font-size="12" fill="#334155">Example: cocaine blocks reuptake (step 5); SSRIs block the serotonin transporter (step 5);</text>
+  <text x="450" y="460" text-anchor="middle" font-size="12" fill="#334155">benzodiazepines boost the effect at the receptor (step 4) without activating it alone.</text>
+
+  <defs>
+    <marker id="a9" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+</svg>

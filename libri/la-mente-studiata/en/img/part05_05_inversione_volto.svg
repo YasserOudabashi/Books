@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="460" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">The face inversion effect</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Turning a face upside down impairs recognition more than for other objects</text>
+
+  <!-- Upright face box -->
+  <rect x="100" y="110" width="300" height="220" rx="8" fill="#F0F9FF" stroke="#0284C7" stroke-width="2"/>
+  <text x="250" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#075985">Upright face</text>
+  <circle cx="250" cy="220" r="60" fill="#FFFFFF" stroke="#334155" stroke-width="2"/>
+  <circle cx="228" cy="205" r="6" fill="#334155"/>
+  <circle cx="272" cy="205" r="6" fill="#334155"/>
+  <path d="M 225,245 Q 250,260 275,245" fill="none" stroke="#334155" stroke-width="3"/>
+  <text x="250" y="305" text-anchor="middle" font-size="11" fill="#075985">holistic processing: configuration recognized at once</text>
+
+  <!-- Inverted face box -->
+  <rect x="500" y="110" width="300" height="220" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="650" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#7F1D1D">Same face, inverted</text>
+  <g transform="rotate(180 650 220)">
+    <circle cx="650" cy="220" r="60" fill="#FFFFFF" stroke="#334155" stroke-width="2"/>
+    <circle cx="628" cy="205" r="6" fill="#334155"/>
+    <circle cx="672" cy="205" r="6" fill="#334155"/>
+    <path d="M 625,245 Q 650,260 675,245" fill="none" stroke="#334155" stroke-width="3"/>
+  </g>
+  <text x="650" y="305" text-anchor="middle" font-size="11" fill="#7F1D1D">part-by-part processing: alterations easily missed</text>
+
+  <text x="450" y="390" text-anchor="middle" font-size="12" fill="#334155">Inverting the image selectively disrupts the face-specific holistic processing,</text>
+  <text x="450" y="410" text-anchor="middle" font-size="12" fill="#334155">forcing a part-by-part analysis that is far less sensitive to configural changes.</text>
+</svg>

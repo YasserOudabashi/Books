@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="440" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">The syllable stream and transitional probabilities</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">No pauses in the stream: the only cue to boundaries is statistical</text>
+
+  <rect x="95" y="150" width="70" height="40" rx="5" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <rect x="175" y="150" width="70" height="40" rx="5" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <rect x="255" y="150" width="70" height="40" rx="5" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <rect x="335" y="150" width="70" height="40" rx="5" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <rect x="415" y="150" width="70" height="40" rx="5" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <rect x="495" y="150" width="70" height="40" rx="5" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <rect x="575" y="150" width="70" height="40" rx="5" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <rect x="655" y="150" width="70" height="40" rx="5" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <rect x="735" y="150" width="70" height="40" rx="5" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="130" y="176" text-anchor="middle" font-size="16" fill="#334155">bi</text>
+  <text x="210" y="176" text-anchor="middle" font-size="16" fill="#334155">da</text>
+  <text x="290" y="176" text-anchor="middle" font-size="16" fill="#334155">ku</text>
+  <text x="370" y="176" text-anchor="middle" font-size="16" fill="#334155">pa</text>
+  <text x="450" y="176" text-anchor="middle" font-size="16" fill="#334155">do</text>
+  <text x="530" y="176" text-anchor="middle" font-size="16" fill="#334155">ti</text>
+  <text x="610" y="176" text-anchor="middle" font-size="16" fill="#334155">go</text>
+  <text x="690" y="176" text-anchor="middle" font-size="16" fill="#334155">la</text>
+  <text x="770" y="176" text-anchor="middle" font-size="16" fill="#334155">bu</text>
+
+  <path d="M 140,142 C 150,112 190,112 200,142" fill="none" stroke="#059669" stroke-width="2"/>
+  <text x="170" y="106" text-anchor="middle" font-size="13" font-weight="bold" fill="#065F46">1.0</text>
+  <path d="M 300,142 C 310,112 350,112 360,142" fill="none" stroke="#DC2626" stroke-width="2"/>
+  <text x="330" y="106" text-anchor="middle" font-size="13" font-weight="bold" fill="#B91C1C">0.33</text>
+
+  <line x1="95" y1="210" x2="325" y2="210" stroke="#059669" stroke-width="3"/>
+  <line x1="335" y1="210" x2="565" y2="210" stroke="#2563EB" stroke-width="3"/>
+  <line x1="575" y1="210" x2="805" y2="210" stroke="#D97706" stroke-width="3"/>
+  <text x="210" y="232" text-anchor="middle" font-size="12" fill="#334155">word 1</text>
+  <text x="450" y="232" text-anchor="middle" font-size="12" fill="#334155">word 2</text>
+  <text x="690" y="232" text-anchor="middle" font-size="12" fill="#334155">word 3</text>
+
+  <rect x="90" y="285" width="720" height="110" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="450" y="315" text-anchor="middle" font-size="13" fill="#334155">Within a word, the next syllable is always the same: probability 1.0.</text>
+  <text x="450" y="340" text-anchor="middle" font-size="13" fill="#334155">At word boundaries, three syllables are possible: probability about 0.33 each.</text>
+  <text x="450" y="372" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400E">A drop in probability signals a word boundary.</text>
+</svg>

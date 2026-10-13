@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Four schedules of reinforcement</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Typical response rate pattern over time</text>
+
+  <!-- fixed ratio -->
+  <rect x="60" y="90" width="360" height="150" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5"/>
+  <text x="240" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400E">Fixed ratio</text>
+  <polyline points="80,210 110,150 120,210 150,150 160,210 190,150 200,210 230,150 240,210 270,150 280,210 310,150 320,210 350,150 360,210" fill="none" stroke="#D97706" stroke-width="2"/>
+  <text x="240" y="228" text-anchor="middle" font-size="10" fill="#78350F">high rate, short pause after reinforcer</text>
+
+  <!-- variable ratio -->
+  <rect x="480" y="90" width="360" height="150" rx="8" fill="#ECFDF5" stroke="#059669" stroke-width="1.5"/>
+  <text x="660" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#065F46">Variable ratio</text>
+  <polyline points="500,155 520,148 540,158 560,145 580,155 600,150 620,142 640,152 660,148 680,157 700,144 720,150 740,146 760,155 780,148 800,152 820,145" fill="none" stroke="#059669" stroke-width="2"/>
+  <text x="660" y="228" text-anchor="middle" font-size="10" fill="#064E3B">highest and steadiest rate of all</text>
+
+  <!-- fixed interval -->
+  <rect x="60" y="270" width="360" height="150" rx="8" fill="#F0F9FF" stroke="#0284C7" stroke-width="1.5"/>
+  <text x="240" y="292" text-anchor="middle" font-size="13" font-weight="bold" fill="#0C4A6E">Fixed interval</text>
+  <path d="M 80 400 Q 130 400 150 340 L 150 400 Q 200 400 220 340 L 220 400 Q 270 400 290 340 L 290 400 Q 340 400 360 340" fill="none" stroke="#0284C7" stroke-width="2"/>
+  <text x="240" y="418" text-anchor="middle" font-size="10" fill="#0C4A6E">"scalloped" speed-up toward the deadline</text>
+
+  <!-- variable interval -->
+  <rect x="480" y="270" width="360" height="150" rx="8" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="660" y="292" text-anchor="middle" font-size="13" font-weight="bold" fill="#4C1D95">Variable interval</text>
+  <polyline points="500,370 530,365 560,372 590,368 620,363 650,370 680,367 710,364 740,369 770,366 800,370 820,368" fill="none" stroke="#7C3AED" stroke-width="2"/>
+  <text x="660" y="418" text-anchor="middle" font-size="10" fill="#4C1D95">moderate but very steady rate</text>
+
+  <text x="450" y="470" text-anchor="middle" font-size="13" fill="#334155">Resistance to extinction, from highest to lowest:</text>
+  <text x="450" y="490" text-anchor="middle" font-size="13" fill="#334155">variable ratio &gt; variable interval &gt; fixed ratio &gt; fixed interval</text>
+</svg>

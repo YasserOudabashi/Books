@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Summing EPSPs and IPSPs</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Inhibition subtracts what excitation adds</text>
+
+  <!-- neuron soma -->
+  <circle cx="450" cy="230" r="70" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="225" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Neuron</text>
+  <text x="450" y="245" text-anchor="middle" font-size="11" fill="#475569">postsynaptic</text>
+
+  <!-- excitatory synapses -->
+  <circle cx="180" cy="130" r="22" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <text x="180" y="135" text-anchor="middle" font-size="11" fill="#065F46">+8 mV</text>
+  <line x1="200" y1="145" x2="395" y2="205" stroke="#059669" stroke-width="2" marker-end="url(#a7)"/>
+
+  <circle cx="180" cy="230" r="22" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <text x="180" y="235" text-anchor="middle" font-size="11" fill="#065F46">+8 mV</text>
+  <line x1="202" y1="230" x2="380" y2="230" stroke="#059669" stroke-width="2" marker-end="url(#a7)"/>
+
+  <circle cx="180" cy="330" r="22" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <text x="180" y="335" text-anchor="middle" font-size="11" fill="#065F46">+8 mV</text>
+  <line x1="200" y1="315" x2="395" y2="255" stroke="#059669" stroke-width="2" marker-end="url(#a7)"/>
+
+  <!-- inhibitory synapses -->
+  <circle cx="720" cy="170" r="22" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="720" y="175" text-anchor="middle" font-size="11" fill="#7F1D1D">-10 mV</text>
+  <line x1="700" y1="185" x2="505" y2="210" stroke="#DC2626" stroke-width="2" marker-end="url(#a8)"/>
+
+  <circle cx="720" cy="290" r="22" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="720" y="295" text-anchor="middle" font-size="11" fill="#7F1D1D">-10 mV</text>
+  <line x1="700" y1="275" x2="505" y2="250" stroke="#DC2626" stroke-width="2" marker-end="url(#a8)"/>
+
+  <text x="450" y="360" text-anchor="middle" font-size="12" fill="#334155">Sum: +24 mV (excitation) − 20 mV (inhibition) = +4 mV</text>
+  <text x="450" y="385" text-anchor="middle" font-size="13" font-weight="bold" fill="#DC2626">Below the +15 mV needed to reach threshold: no action potential</text>
+
+  <rect x="150" y="420" width="600" height="70" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5"/>
+  <text x="450" y="450" text-anchor="middle" font-size="12" fill="#78350F">The very same excitatory input, without the two inhibitory synapses,</text>
+  <text x="450" y="470" text-anchor="middle" font-size="12" fill="#78350F">would have crossed threshold (+24 mV &gt; +15 mV needed).</text>
+
+  <defs>
+    <marker id="a7" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#059669"/>
+    </marker>
+    <marker id="a8" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#DC2626"/>
+    </marker>
+  </defs>
+</svg>

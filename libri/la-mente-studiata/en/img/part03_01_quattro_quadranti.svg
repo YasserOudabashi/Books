@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">The four quadrants of operant conditioning</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Positive/negative = added/removed; not "good/bad"</text>
+
+  <!-- column/row headers -->
+  <text x="290" y="95" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Behavior INCREASES</text>
+  <text x="650" y="95" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Behavior DECREASES</text>
+  <text x="90" y="180" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155" transform="rotate(-90 90 180)">ADDED (positive)</text>
+  <text x="90" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155" transform="rotate(-90 90 360)">REMOVED (negative)</text>
+
+  <!-- quadrant 1: rinforzo positivo -->
+  <rect x="130" y="115" width="320" height="140" rx="8" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <text x="290" y="145" text-anchor="middle" font-size="14" font-weight="bold" fill="#065F46">Positive reinf.</text>
+  <text x="290" y="170" text-anchor="middle" font-size="11" fill="#064E3B">Something pleasant is added</text>
+  <text x="290" y="190" text-anchor="middle" font-size="11" fill="#064E3B">E.g.: treat when the dog sits</text>
+
+  <!-- quadrant 2: punizione positiva -->
+  <rect x="490" y="115" width="320" height="140" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="650" y="145" text-anchor="middle" font-size="14" font-weight="bold" fill="#991B1B">Positive punishmt.</text>
+  <text x="650" y="170" text-anchor="middle" font-size="11" fill="#7F1D1D">Something unpleasant is added</text>
+  <text x="650" y="190" text-anchor="middle" font-size="11" fill="#7F1D1D">E.g.: mild shock when the dog barks</text>
+
+  <!-- quadrant 3: rinforzo negativo -->
+  <rect x="130" y="290" width="320" height="140" rx="8" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <text x="290" y="320" text-anchor="middle" font-size="14" font-weight="bold" fill="#065F46">Negative reinf.</text>
+  <text x="290" y="345" text-anchor="middle" font-size="11" fill="#064E3B">Something unpleasant is removed</text>
+  <text x="290" y="365" text-anchor="middle" font-size="11" fill="#064E3B">E.g.: the alarm stops when you buckle up</text>
+
+  <!-- quadrant 4: punizione negativa -->
+  <rect x="490" y="290" width="320" height="140" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="650" y="320" text-anchor="middle" font-size="14" font-weight="bold" fill="#991B1B">Negative punishmt.</text>
+  <text x="650" y="345" text-anchor="middle" font-size="11" fill="#7F1D1D">Something pleasant is removed</text>
+  <text x="650" y="365" text-anchor="middle" font-size="11" fill="#7F1D1D">E.g.: phone taken away</text>
+
+  <text x="450" y="460" text-anchor="middle" font-size="12" fill="#94A3B8">Reinforcement and punishment are defined by observed effect, never by intent.</text>
+</svg>

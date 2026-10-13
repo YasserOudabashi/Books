@@ -114,6 +114,8 @@ a:hover { text-decoration-thickness: 2px; }
   border: 1px solid var(--line); border-radius: .5rem; padding: .35rem .7rem; cursor: pointer; line-height: 1.2;
 }
 .tb-btn:hover { background: var(--surface-2); }
+a.tb-btn { display: inline-block; text-decoration: none; }
+.lang-btn { font-weight: 700; letter-spacing: .04em; }
 .progress { position: absolute; left: 0; bottom: -1px; height: 3px; width: 0; background: var(--accent); transition: width .1s linear; }
 
 /* ---------- pannello impostazioni (da destra) ---------- */

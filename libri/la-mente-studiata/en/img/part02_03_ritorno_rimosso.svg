@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Repression and its return</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Repressed content does not vanish: it stays active and seeks a way out</text>
+
+  <!-- content box -->
+  <rect x="60" y="100" width="220" height="80" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="170" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#991B1B">Repressed content</text>
+  <text x="170" y="150" text-anchor="middle" font-size="11" fill="#7F1D1D">(charged wish</text>
+  <text x="170" y="165" text-anchor="middle" font-size="11" fill="#7F1D1D">or memory)</text>
+
+  <line x1="280" y1="140" x2="340" y2="140" stroke="#334155" stroke-width="2" marker-end="url(#a2)"/>
+
+  <!-- repression barrier -->
+  <rect x="340" y="90" width="30" height="220" fill="#F1F5F9" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="355" y="325" text-anchor="middle" font-size="11" fill="#64748B">repressed</text>
+
+  <line x1="370" y1="140" x2="430" y2="140" stroke="#334155" stroke-width="2" marker-end="url(#a2)" stroke-dasharray="4,3"/>
+  <text x="400" y="125" text-anchor="middle" font-size="10" fill="#64748B">attempt to resurface</text>
+
+  <!-- mezzo scelto per tenerlo a bada -->
+  <rect x="430" y="100" width="220" height="80" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="540" y="125" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400E">Means chosen to</text>
+  <text x="540" y="143" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400E">keep it at bay</text>
+  <text x="540" y="163" text-anchor="middle" font-size="11" fill="#78350F">(e.g. an absorbing interest)</text>
+
+  <line x1="540" y1="180" x2="540" y2="230" stroke="#334155" stroke-width="2" marker-end="url(#a2)"/>
+  <text x="600" y="210" text-anchor="middle" font-size="10" fill="#64748B">becomes the very channel</text>
+
+  <!-- disguised return -->
+  <rect x="430" y="230" width="220" height="80" rx="8" fill="#F0FDF4" stroke="#16A34A" stroke-width="2"/>
+  <text x="540" y="260" text-anchor="middle" font-size="13" font-weight="bold" fill="#14532D">Disguised return</text>
+  <text x="540" y="280" text-anchor="middle" font-size="11" fill="#166534">symptom, dream, delusion</text>
+  <text x="540" y="296" text-anchor="middle" font-size="11" fill="#166534">compromise formation</text>
+
+  <text x="450" y="380" text-anchor="middle" font-size="13" fill="#334155">Each outcome is doubly determined: an acceptable conscious source</text>
+  <text x="450" y="400" text-anchor="middle" font-size="13" fill="#334155">and a repressed unconscious one — the conflict between them is never fully resolved.</text>
+  <text x="450" y="440" text-anchor="middle" font-size="12" fill="#94A3B8">Example discussed in full: the Gradiva case (ch. 12).</text>
+
+  <defs>
+    <marker id="a2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+</svg>

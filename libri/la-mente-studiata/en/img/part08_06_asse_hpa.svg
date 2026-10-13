@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">Hypothalamic-pituitary-adrenal axis</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13" fill="#64748B">Hormonal cascade and cortisol negative feedback</text>
+
+  <rect x="370" y="100" width="160" height="50" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="450" y="130" text-anchor="middle" font-size="12" font-weight="bold" fill="#1E3A8A">Hypothal. (CRH)</text>
+
+  <path d="M 450,150 L 450,190" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrh)"/>
+  <defs><marker id="arrh" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#94A3B8"/></marker></defs>
+
+  <rect x="370" y="195" width="160" height="50" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="225" text-anchor="middle" font-size="12" font-weight="bold" fill="#92400E">Ant. pituitary (ACTH)</text>
+
+  <path d="M 450,245 L 450,285" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrh)"/>
+
+  <rect x="370" y="290" width="160" height="50" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <text x="450" y="320" text-anchor="middle" font-size="12" font-weight="bold" fill="#7F1D1D">Adrenal cortex</text>
+
+  <path d="M 450,340 L 450,380" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrh)"/>
+
+  <rect x="360" y="385" width="180" height="50" rx="8" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <text x="450" y="415" text-anchor="middle" font-size="12" font-weight="bold" fill="#065F46">Cortisol (blood)</text>
+
+  <!-- feedback loop -->
+  <path d="M 540,410 C 700,410 700,120 535,120" fill="none" stroke="#7C3AED" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrfb)"/>
+  <defs><marker id="arrfb" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#7C3AED"/></marker></defs>
+  <path d="M 540,410 C 650,410 650,220 535,220" fill="none" stroke="#7C3AED" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrfb)"/>
+  <text x="740" y="260" text-anchor="middle" font-size="11" fill="#5B21B6" font-weight="bold">Negative feedback</text>
+  <text x="740" y="278" text-anchor="middle" font-size="11" fill="#5B21B6">(to hypothal./pituitary)</text>
+
+  <rect x="150" y="450" width="600" height="1" fill="none"/>
+</svg>

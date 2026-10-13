@@ -170,6 +170,34 @@ Il push fa il deploy. Il browser può tenere in cache css/js per un'ora e le
 immagini per 30 giorni (vedi `libri/_headers`): se vedi ancora la versione
 vecchia, ricarica con `Ctrl+Shift+R`.
 
+## Versione inglese (*The Studied Mind*)
+
+`la-mente-studiata` ha anche la traduzione inglese completa (13 parti, appendici e
+81 diagrammi), in `libri/la-mente-studiata/en/`:
+**https://books-alr.pages.dev/la-mente-studiata/en/**
+
+- Il pulsante **EN / IT** in alto (accanto ad **Aa**) porta alla stessa pagina
+  nell'altra lingua, allo stesso capitolo: gli `id` dei titoli sono identici nelle
+  due versioni. La scelta viene ricordata: chi ha scelto l'inglese, aprendo la
+  copertina italiana, viene portato a quella inglese.
+- Le pagine inglesi usano gli stessi `style.css`, `app.js` e caratteri di quelle
+  italiane (`../style.css`): una modifica allo stile vale per entrambe.
+- I diagrammi tradotti sono in `en/img/` (SVG + PNG con lo stesso nome).
+- Nel glossario (appendice D) le voci sono in ordine alfabetico inglese, con il
+  termine italiano tra parentesi.
+
+**Controllo della traduzione** — `scripts/check-en.py` confronta ogni pagina
+italiana con quella inglese e segnala: titoli, paragrafi, riquadri, tabelle o
+figure in numero diverso; id, link o immagini diversi; riquadri in ordine diverso;
+numeri dell'italiano assenti nell'inglese (0,46 → 0.46); parole italiane rimaste.
+
+```bash
+python3 scripts/check-en.py          # deve finire con "15/15 pagine senza problemi."
+```
+
+Se si modifica il testo italiano di un capitolo, va aggiornata a mano anche la
+pagina inglese corrispondente, poi si rilancia il controllo.
+
 ## Diagnostica
 
 Il primo posto dove guardare è il deploy fallito nel pannello Cloudflare →
